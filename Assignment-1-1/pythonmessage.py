@@ -6,7 +6,12 @@
 # Sources https://replit.com/@christenreinhar/COP1000Assignment-1-1#main.py 
 # Purpose In Python, Print message  
 
+#Begin
 
-
+#print first meassage
 print("I'm learning how to program in Python.")
+
+#print second message
 print("Thats awesome!")
+
+#End
