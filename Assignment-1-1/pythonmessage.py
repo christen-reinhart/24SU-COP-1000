@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/user/bin/env python3
 
 # Script name Assignment 1-1
 # Author Name Christen Reinhart
@@ -8,7 +8,7 @@
 
 #Begin
 
-#print first meassage
+#print first message
 print("I'm learning how to program in Python.")
 
 #print second message
