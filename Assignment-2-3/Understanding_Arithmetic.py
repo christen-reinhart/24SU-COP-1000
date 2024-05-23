@@ -11,6 +11,8 @@
 
 #Begin
 
+
+#items and prices
 itemName = "TV Stand"
 retailPrice = 325.00
 wholesalePrice = 200.00
