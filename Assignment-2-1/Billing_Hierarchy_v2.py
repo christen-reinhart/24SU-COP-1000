@@ -7,16 +7,8 @@
 
 # Function to calculate the total bill
 def calculate_total_bill(minutes, minutecost, textmessage, textcost, sales_tax_amount):
-    """
-    Calculate the total bill based on minutes and text messages used.
     
-    :param minutes: Number of minutes used
-    :param minutecost: Cost per minute
-    :param textmessage: Number of text messages sent
-    :param textcost: Cost per text message
-    :param sales_tax_amount: Sales tax rate
-    :return: Total bill amount including tax
-    """
+ 
     subtotal = (minutes * minutecost) + (textmessage * textcost)
     tax_amount = subtotal * sales_tax_amount
     totalbill = subtotal + tax_amount
@@ -33,6 +25,6 @@ SALES_TAX_AMOUNT = 0.06  # Sales tax rate
 totalbill = calculate_total_bill(minutes, minutecost, textmessage, textcost, SALES_TAX_AMOUNT)
 
 # Output the total bill
-print(f"Total phone bill: ${totalbill:.2f}")
+print("Total phone bill")
 
 
