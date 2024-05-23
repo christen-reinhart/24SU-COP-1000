@@ -3,10 +3,10 @@
 # Script name: Assignment 2-1
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 05/23/2024
-# Purpose: Assignment 2-2 Variables in Python with Pseudocode
+# Purpose: Assignment 2-3 Arithmetic with Python
 
-# This program calculates your age in the year 2050.
-# Input:  Prices and discounts
+# This Calculates prices and discounts
+# Input:  Prices and numeric values
 # Output: This program calculates profits and sales prices for a furniture company.
 
 
