@@ -9,8 +9,7 @@
 # Input:  Prices and numeric values
 # Output: This program calculates profits and sales prices for a furniture company.
 
-
-# Furniture.py - This program calculates profits and sales prices for a furniture company.
+#Begin
 
 itemName = "TV Stand"
 retailPrice = 325.00
@@ -32,4 +31,6 @@ print("Wholesale Price: $" + str(wholesalePrice))
 print("Profit: $" + str(profit))
 print("Sale Price: $" + str(salePrice))
 print("Sale Profit: $" + str(saleProfit))
+
+#End
 
