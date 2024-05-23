@@ -13,8 +13,8 @@ minutes = 200  # Number of minutes used
 minutecost = 1  # Cost per minute
 textmessage = 300  # Number of text messages sent
 textcost = 2  # Cost per text message
-tax = 2
-
+num SALES_TAX_AMOUNT = 0.06
+taxAmount = totalbill * SALES_TAX_AMOUNT
 # Calculate the total bill
 totalbill = calculate_total_bill(minutes, minutecost, textmessage, textcost)
 print("totalbill")
