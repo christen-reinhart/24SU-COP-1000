@@ -4,7 +4,7 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 05/23/2024
 # Sources 
-# Purpose In Python, Billing  
+# Purpose In Python, Calculate Phone Billing  
 
 #Begin
 
@@ -16,5 +16,5 @@ textcost = 2  # Cost per text message
 
 # Calculate the total bill
 totalbill = calculate_total_bill(minutes, minutecost, textmessage, textcost)
-
+print("totalbill")
 #End
