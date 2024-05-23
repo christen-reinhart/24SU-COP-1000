@@ -7,8 +7,8 @@ wholesalePrice = 200.00
 # Calculate profit
 profit = retailPrice - wholesalePrice
 
-# Calculate sale price (assuming a 10% discount)
-salePrice = retailPrice * 0.90  # 10% discount is equivalent to 90% of the retail price
+# Calculate sale price (10% discount)
+salePrice = retailPrice * 0.90  # 10% discount 90% of the retail price
 
 # Calculate sale profit
 saleProfit = salePrice - wholesalePrice
