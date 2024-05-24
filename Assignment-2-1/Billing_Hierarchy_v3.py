@@ -1,19 +1,38 @@
-#Understanding Arithmetic
+#Sequential Statements
+
+#start
+
+Declarations
+    string = prompt "weekly salary"
+    string = number dependents "enter number
+    
+    num calculate state tax 
+    num calculate federal tax 
+    
+#end
+
+
+
+#Understanding Arithmetic 2-3
 
 start 
 
    Declarations
-	string prompt 
-	num balance
-   output prompt "enter pay amount"
-   input "pay amount"
-   output prompt "enter number of people"
+	string prompt = "enter amount"
+   num retail price
+	num wholesale price
+   num profit
+   num sale price
+   
+   output prompt 
+   input "amount"
+   output prompt 
    Input "number of people"
    output "pay values"
    	
 End 
 
-#Assigning Age Variables
+#Assigning Age Variables 2-2
 
 Start 
 
