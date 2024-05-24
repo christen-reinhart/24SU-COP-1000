@@ -1,4 +1,4 @@
-#Sequential Statements 2-4
+#Sequential Statements 2-4 Pseudocode
 
 #start
 
@@ -13,7 +13,7 @@ Declarations
 
 
 
-#Understanding Arithmetic 2-3
+#Understanding Arithmetic 2-3 Pseudocode
 
 start 
 
@@ -32,7 +32,7 @@ start
    	
 End 
 
-#Assigning Age Variables 2-2
+#Assigning Age Variables 2-2 Pseudocode
 
 Start 
 
