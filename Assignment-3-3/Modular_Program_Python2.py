@@ -3,7 +3,7 @@
 # Script name: Assignment 3-3
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 05/30/2024
-# Purpose: Calculculate Date
+# Purpose: Calculate Date
 
 # This Calculates Dates
 # Input: Interactive Year, Month, Day
@@ -39,3 +39,5 @@ if validDate:
     print(f"{month}/{day}/{year} is a valid date.")
 else:
     print(f"{month}/{day}/{year} is an invalid date.")
+    
+#end
