@@ -1,3 +1,23 @@
+#!/usr/bin/env python3
+
+# Script name: Assignment 3-3
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 05/30/2024
+# Purpose: Calculculate Date
+
+# This Calculates Dates
+# Input: Interactive Year, Month, Day
+# Output: Calculate date based upon inputs
+
+# Summary:
+# This program determines if a date entered by the user is valid.
+# When completed, the user should be able to enter a year, a month, and a day. The program then determines if the date is valid.
+# Valid years are those that are greater than 0, valid months include the values 1 through 12, and valid days include the values 1 through 31.
+
+#start
+
+# Constants
+
 validDate = True
 MIN_YEAR = 0
 MIN_MONTH = 1
