@@ -6,7 +6,7 @@
 # Purpose: Assignment 2-2 Variables in Python with Pseudocode
 
 # This program calculates your age in the year 2050.
-# Input:  None
+# Input:  Age and current year
 # Output: Your current age followed by your age in 2050
 
 #Begin
