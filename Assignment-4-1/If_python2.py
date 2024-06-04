@@ -6,8 +6,8 @@
 # Purpose: Calculculate Sign Cost
 
 # This Calculates Dates
-# Input: Interactive Characters, Wood, Type, Color
-# Output: Calculate date based upon inputs
+# Input: Interactive Characters, Wood, Color
+# Output: Calculate price based upon inputs
 
 # Summary:
 # This program determines cost for a sign based upon selections
