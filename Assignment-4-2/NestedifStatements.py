@@ -32,5 +32,9 @@ else:
         else:
             if productivity_score >= 200:
                 bonus = 200.00
+
+# Output the employee's name and bonus
+print(f"Employee Name: {employee_name}")
+print(f"Employee Bonus: ${bonus}")
                 
 # end
