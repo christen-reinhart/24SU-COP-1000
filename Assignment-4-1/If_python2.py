@@ -43,3 +43,5 @@ charge = calculate_charge(numChars, woodType, color)
 
 # Output the charge for this sign
 print(f"The charge for this sign is ${charge:.2f}")
+
+# end
