@@ -1,3 +1,20 @@
+#!/usr/bin/env python3
+
+# Script name: Assignment 4-1
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 06/04/2024
+# Purpose: Calculculate Date
+
+# This Calculates Dates
+# Input: Interactive Characters, Wood Type, Color
+# Output: Calculate date based upon inputs
+
+# Summary:
+# This program determines cost for a sign based upon selections
+# When completed, the user should be able to enter characters, wood, color
+
+#start
+
 # Function to calculate the charge based on input parameters
 def calculate_charge(numChars, woodType, color):
     charge = 35.00
