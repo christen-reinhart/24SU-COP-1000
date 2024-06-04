@@ -3,7 +3,7 @@
 # Script name: Assignment 4-1
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/04/2024
-# Purpose: Calculculate Date
+# Purpose: Calculculate Sign Cost
 
 # This Calculates Dates
 # Input: Interactive Characters, Wood Type, Color
