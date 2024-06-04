@@ -1,6 +1,3 @@
-This program calculates prices for custom house signs.
-"""
-
 # Function to calculate the charge based on input parameters
 def calculate_charge(numChars, woodType, color):
     charge = 35.00
