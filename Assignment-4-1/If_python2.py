@@ -6,7 +6,7 @@
 # Purpose: Calculculate Sign Cost
 
 # This Calculates Dates
-# Input: Interactive Characters, Wood Type, Color
+# Input: Interactive Characters, Wood, Type, Color
 # Output: Calculate date based upon inputs
 
 # Summary:
