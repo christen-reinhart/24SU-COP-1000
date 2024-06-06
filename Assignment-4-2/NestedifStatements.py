@@ -3,7 +3,7 @@
 # Script name: Assignment 4-2
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/07/2024
-# Purpose: Calculculate Bonus with nested if statements
+# Purpose: Calculate Bonus with nested if statements
 
 # This Calculates Bonus
 # Input: Productivity Bonus Numbers
