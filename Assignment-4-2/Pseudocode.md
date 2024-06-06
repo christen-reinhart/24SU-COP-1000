@@ -8,6 +8,8 @@
 
 # Input:
 
+//start
+
 //employee name = get input "Enter the employee's name"
 //num shifts = get input "Enter the number of shifts" 
 //num transactions = get input "Enter the number of transactions"
@@ -32,3 +34,5 @@
 
 //display output "Employee Name" 
 //display output "Employee Bonus" 
+
+//end
