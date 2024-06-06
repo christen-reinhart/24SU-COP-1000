@@ -3,7 +3,7 @@
 # Script name: Assignment 4-2
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/07/2024
-# Purpose: Pseudocode for Calculculating Bonus with nested if statements
+# Purpose: Pseudocode for Calculating Bonus with nested if statements
 
 
 # Input:
