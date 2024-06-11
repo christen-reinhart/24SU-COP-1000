@@ -12,18 +12,15 @@
 # start
 
 # Constants
+p = 2
+q = 4
 
-j = 2
-k = 5
-m = 6
-n = 9
-
-while j <= k:
-    while m < n:
-        print("Hello")
-        m = m + 1
-    j = j + 1
-
-print(j, k, m, n)
+while p < q:
+    print("Adios")
+    r = 1
+    while r < q:  # Added a colon after the while statement
+        print("Adios!")  # Indentation corrected
+        r += 1  # Increment r to avoid an infinite loop
+    p += 1  # Increment p to move towards the loop termination condition
 
 # end
