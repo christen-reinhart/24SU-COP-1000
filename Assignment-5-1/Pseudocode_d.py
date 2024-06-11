@@ -16,8 +16,8 @@ j = 2
 k = 5
 n = 9
 
+m = 6
 while j <= k:
-    m = 6
     while m < n:
         print("Goodbye")
         m = m + 1
@@ -26,3 +26,4 @@ while j <= k:
 print(j, k, n)
 
 # end
+
