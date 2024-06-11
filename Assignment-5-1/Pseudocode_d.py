@@ -18,12 +18,12 @@ n = 9
 
 m = 6
 while j <= k:
+    m = 6
     while m < n:
         print("Goodbye")
         m = m + 1
     j = j + 1
 
-print(j, k, n)
 
 # end
 
