@@ -6,8 +6,8 @@
 # Purpose: Loop
 
 # Performs Loop
-# Input: 2, 5, 6, 9
-# Output: j, k, m, n
+# Input: 2, 4
+# Output: p, q
 
 # start
 
