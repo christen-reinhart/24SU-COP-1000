@@ -6,12 +6,13 @@
 # Purpose: Loop
 
 # Performs Loop
-# Input: 2, 5, 9
-# Output: j, k, n
+# Input: 2, 5, 6, 9
+# Output: j, k, m, n
 
 # start
 
 # Constants
+
 j = 2
 k = 5
 m = 6
