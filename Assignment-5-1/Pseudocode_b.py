@@ -15,7 +15,7 @@ d = 4
 e = 6
 f = 7
 
-while d > f:
+while d <= f:
     d = d + 1
     e = e - 1
 
