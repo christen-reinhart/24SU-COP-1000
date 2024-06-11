@@ -14,15 +14,15 @@
 # Constants
 j = 2
 k = 5
+m = 6
 n = 9
 
-m = 6
 while j <= k:
     while m < n:
-        print("Goodbye")
+        print("Hello")
         m = m + 1
     j = j + 1
 
-print(j, k, n)
+print(j, k, m, n)
 
 # end
