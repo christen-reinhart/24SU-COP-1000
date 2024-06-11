@@ -6,7 +6,7 @@
 # Purpose: Loop
 
 # Performs Loop
-# Input: 2, 4, 
+# Input: 2, 4 
 # Output: p, q
 
 # start
