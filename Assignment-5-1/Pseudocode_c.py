@@ -11,6 +11,8 @@
 
 # start
 
+# Constants
+
 g = 4
 h = 6
 
