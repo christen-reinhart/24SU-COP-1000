@@ -18,9 +18,9 @@ q = 4
 while p < q:
     print("Adios")
     r = 1
-    while r < q:  # Added a colon after the while statement
-        print("Adios!")  # Indentation corrected
-        r += 1  # Increment r to avoid an infinite loop
-    p += 1  # Increment p to move towards the loop termination condition
+    while r < q:  
+        print("Adios!")  
+        r += 1  
+    p += 1  
 
 # end
