@@ -1,24 +1,29 @@
 #!/usr/bin/env python3
 
-# Script name: Assignment Pseudocode f
+# Script name: Assignment Pseudocode d
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/11/2024
 # Purpose: Loop
 
 # Performs Loop
-# Input: 2, 4 
-# Output: p, q
+# Input: 2, 5, 6, 9
+# Output: j, k, m, n
 
 # start
 
 # Constants
 
-g = 4
-h = 6
+j = 2
+k = 5
+m = 6
+n = 9
 
-while g <= h:
-    g = g + 1
-    
-print(g, h)
+while j <= k:
+    while m < n:
+        print("Hello")
+        m = m + 1
+    j = j + 1
+
+print(j, k, m, n)
 
 # end
