@@ -12,15 +12,16 @@
 # start
 
 # Constants
-
 a = 1
 b = 2
 c = 5
 
+# Loop until a is no longer less than c
 while a < c:
-    a = a + 1
-    b = b + c
+    a = a + 1  # Increment a by 1
+    b = b + c  # Increment b by the value of c
 
+# Print the final values of a, b, and c
 print(a, b, c)
- 
+
 # end
