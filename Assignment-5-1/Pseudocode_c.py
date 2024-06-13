@@ -7,19 +7,21 @@
 
 # Performs Loop
 # Input: 4, 6
-# Output: g, h 
+# Output: g, h
 
 # start
 
 # Constants
-
 g = 4
 h = 6
 
+# Loop until g is greater than h
 while g <= h:
-    g = g + 1
-    
+    g = g + 1  # Increment g by 1
+
+# Print the final values of g and h
 print(g, h)
 
 # end
+
    
