@@ -12,18 +12,22 @@
 # start
 
 # Constants
-
 j = 2
 k = 5
 m = 6
 n = 9
 
+# Outer loop until j is greater than k
 while j <= k:
+    # Inner loop until m is no longer less than n
     while m < n:
-        print("Hello")
-        m = m + 1
+        print("Hello")  # Print "Hello"
+        m = m + 1  # Increment m by 1
+    # Increment j by 1 at the end of each outer loop iteration
     j = j + 1
 
+# Print the final values of j, k, m, and n
 print(j, k, m, n)
 
 # end
+
