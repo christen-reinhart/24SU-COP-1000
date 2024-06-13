@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Script name: Assignment Pseudocode d
+# Script name: Assignment Pseudocode f
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/11/2024
 # Purpose: Loop
