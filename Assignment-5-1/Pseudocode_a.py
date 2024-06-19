@@ -40,3 +40,21 @@ print(a, b, c)
 # output a, b, c
 
 # end
+
+# Initialize variables
+# a = 1 
+# b = 2
+# c = 5
+
+# Loop until a is less than c
+# while a < c:
+    # Increment a by 1
+    # a = a + 1
+    
+    # Increment b by c
+    b = b + c
+
+# Output the values of a, b, and c
+# print("a:", a)
+# print("b:", b)
+# print("c:", c)
