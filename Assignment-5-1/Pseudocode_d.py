@@ -38,7 +38,7 @@ while j <= k:
 
 # j = 2
 # k = 5
-# i = 9
+# n = 9
 # while j < k
     # m = 6
     # while m < n 
@@ -53,7 +53,7 @@ while j <= k:
 # Initialize variables
 # j = 2
 # k = 5
-# i = 9
+# n = 9
 
 # Outer loop until j is less than k
 # while j < k:
