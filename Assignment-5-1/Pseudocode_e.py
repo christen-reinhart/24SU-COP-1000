@@ -49,3 +49,24 @@ print(j, k, m, n)
 
 # end
 
+# Initialize variables
+# j = 2
+# k = 5
+# m = 6
+# n = 9
+
+# Outer loop until j is less than k
+# while j < k:
+    # Inner loop until m is less than n
+    # while m < n:
+        # Output "Hello"
+        # print("Hello")
+        # Increment m by 1
+        # m = m + 1
+    
+    # Reset m to 6 for the next iteration of the outer loop
+    # m = 6
+    # Increment j by 1
+    # j = j + 1
+
+
