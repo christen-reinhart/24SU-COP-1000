@@ -50,4 +50,25 @@ while j <= k:
 
 # end
 
+# Initialize variables
+# j = 2
+# k = 5
+# i = 9
+
+# Outer loop until j is less than k
+# while j < k:
+    # m = 6
+    # n = 10  # Assuming n is defined; it's not given in the pseudo code
+
+    # Inner loop until m is less than n
+    # while m < n:
+        # Output "Goodbye"
+        # print("Goodbye")
+        # Increment m by 1
+        # m = m + 1
+    
+    # Increment j by 1
+    # j = j + 1
+
+
 
