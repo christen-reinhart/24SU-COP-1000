@@ -43,3 +43,26 @@ while p < q:
 # endwhile
 
 # end
+
+# Initialize variables
+p = 2
+q = 4
+
+# Outer loop until p is less than q
+# while p < q:
+    # Output "Adios" before the inner loop starts
+    # print("Adios")
+    
+    # Initialize r for the inner loop
+    # r = 1
+    
+    # Inner loop until r is less than q
+    # while r < q:
+        # Output "Adios"
+        # print("Adios")
+        
+        # Increment r by 1
+        # r = r + 1
+    
+    # Increment p by 1
+    # p = p + 1
