@@ -13,6 +13,6 @@
 # names
 names = ["Christen", "Joe", "James", "Brian"]
 print(names)    
-
+print(names.index("Christen"))
 
 
