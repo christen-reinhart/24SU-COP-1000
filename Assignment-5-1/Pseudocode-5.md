@@ -12,7 +12,7 @@
 # start
 
 start
-    declarations
+    # declarations
     string name
     string QUIT = "ZZZ"
 output "Enter name"
