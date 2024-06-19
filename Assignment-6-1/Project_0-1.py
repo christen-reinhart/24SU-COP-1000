@@ -38,10 +38,11 @@ def main():
         if choice == '1':
             print_allowed_vehicles()
         elif choice == '2':
-            print("Exiting the program. Goodbye!")
+            print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
             break
         else:
             print("Invalid choice. Please enter 1 or 2.\n")
 
 if __name__ == "__main__":
     main()
+
