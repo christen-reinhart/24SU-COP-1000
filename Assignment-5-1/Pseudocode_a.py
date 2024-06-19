@@ -52,7 +52,7 @@ print(a, b, c)
     # a = a + 1
     
     # Increment b by c
-    b = b + c
+    # b = b + c
 
 # Output the values of a, b, and c
 # print("a:", a)
