@@ -40,3 +40,21 @@ print(d, e, f)
 # output d, e, f
 
 # end
+
+# Initialize variables
+# d = 4
+# e = 6
+# f = 7
+
+# Loop until d is less than f
+# while d < f:
+    # Increment d by 1
+    # d = d + 1
+    
+    # Decrement e by 1
+    # e = e - 1
+
+# Output the values of d, e, and f
+# print("d:", d)
+# print("e:", e)
+# print("f:", f)
