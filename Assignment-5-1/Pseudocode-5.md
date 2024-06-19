@@ -11,15 +11,14 @@
 
 # start
 
-start
     # declarations
-    string name
-    string QUIT = "ZZZ"
-output "Enter name"
-input name
-while name <> QUIT
-    output "Hello ", name
-    input name
-endwhile
-output "Goodbye"
-stop
+    # string name
+    # string QUIT = "ZZZ"
+# output "Enter name"
+# input name
+# while name <> QUIT
+    # output "Hello ", name
+    # input name
+# endwhile
+# output "Goodbye"
+# stop
