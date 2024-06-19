@@ -11,11 +11,15 @@
 
 # start
 
-Declarations
-
-a = 1
-b = 2
-c = 3
-d = 4
-
-while d < 20
+start
+    declarations
+    string name
+    string QUIT = "ZZZ"
+output "Enter name"
+input name
+while name <> QUIT
+    output "Hello ", name
+    input name
+endwhile
+output "Goodbye"
+stop
