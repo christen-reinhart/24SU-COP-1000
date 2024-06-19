@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+
+# Script name: Project Test
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 06/21/2024
+# Purpose: Arrays
+# Reference Chat GPT: https://chatgpt.com/share/6e22c821-64b7-4926-83c7-f5743cb5a143
+# Initial Draft With Assistance
+
+# Input: 
+# Output: Array
+
 # carfinder.py
 
 # List of allowed vehicles (consider storing in a file for easier updates)
