@@ -39,4 +39,16 @@ print(g, h)
 
 # end
 
-   
+# Initialize variables
+# g = 4
+# h = 6
+
+# Loop until g is less than h
+# while g < h:
+    # Increment g by 1
+    # g = g + 1
+
+# Output the values of g and h
+# print("g:", g)
+# print("h:", h)
+  
