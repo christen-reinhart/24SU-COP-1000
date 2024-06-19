@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 
-# Script name: Assignment 5
+# Script name: Assignment 6
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/11/2024
-# Purpose: Pseudocode for Loop
+# Date of Latest Revision: 06/19/2024
+# Purpose: Arrays
 
-# This Calculates Bonus
-# Input: Productivity Bonus Numbers
-# Output: Calculate Bonus
-
-# start
+# This 
+# Input: Pending
+# Output: Pending
 
 # start
     # declarations
