@@ -6,8 +6,8 @@
 # Purpose: Arrays
 
 # This 
-# Input: Pending
-# Output: Pending
+# Input: Names
+# Output: Array
 
 # start
 
