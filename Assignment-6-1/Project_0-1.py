@@ -43,7 +43,7 @@ Please Enter the following number below from the following menu:
 # Program Name: AutoCountry Vehicle Finder
 
 # Data Structures
-- authorized_vehicles: Array of Strings (stores names of authorized vehicles)
+# - authorized_vehicles: Array of Strings (stores names of authorized vehicles)
 
 # Main Loop
 #While True:
