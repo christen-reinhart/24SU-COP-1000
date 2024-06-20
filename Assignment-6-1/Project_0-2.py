@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
 
-# Script name: Project 0-2
+# Script name: Project 0-1 
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/21/2024
-# Purpose: Arrays
+# Date of Latest Revision: 06/20/2024
+# Purpose: Vehicle Finder
 
 # Input: Array with Trucks for car Finder
 # Output: Options
 
 # start
 
-# Script name: Project 0-1 (consider renaming for clarity)
-# Author Name: Christen Reinhart
-# Date of Latest Revision: 06/20/2024
-# Purpose: Vehicle Finder
+
 
 # List of authorized vehicles (consider storing in a file for easier updates)
 authorized_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
