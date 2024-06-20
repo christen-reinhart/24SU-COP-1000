@@ -25,8 +25,8 @@
 #    "Please Enter a choice:"
 #    "1. PRINT all Authorized Vehicles"
 #    "2. Exit"
-#  - Get user choice (choice: String)
-#  - Convert choice to uppercase (choice = UPPERCASE(choice))
+#  - Get user choice 
+#  - Convert choice to uppercase 
 #  - If choice is equal to "1":
 #    - Print message: "The AutoCountry sales manager has authorized..."
 #    - Loop through each vehicle in authorized_vehicles:
