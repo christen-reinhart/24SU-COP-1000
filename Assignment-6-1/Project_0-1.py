@@ -30,7 +30,7 @@ Please Enter the following number below from the following menu:
         print("\nThe AutoCountry sales manager has authorized the purchase of the following vehicles:")
         for vehicle in allowed_vehicles:
             print(vehicle)
-        print()  # Add a newline for better readability
+        print()  
     elif choice == '2':
         print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
         break
