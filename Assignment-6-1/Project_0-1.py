@@ -3,12 +3,9 @@
 # Script name: Project 0-1
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/20/2024
-# Purpose: Arrays
-# Reference Chat GPT: https://chatgpt.com/share/08c15ca8-32e9-4464-958f-2968157a9e3f
-# Initial Draft With Assistance
-# This 
+# Purpose: Array
 # Input: Truck Brands
-# Output: Array
+# Output: Trucks for Sale
 
 # List of allowed vehicles
 allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
