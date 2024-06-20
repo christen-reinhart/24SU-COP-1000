@@ -27,7 +27,7 @@ Please Enter the following number below from the following menu:
     choice = input("Enter your choice: ").strip()
     
     if choice == '1':
-        print("\nThe AutoCountry sales manager has authorized the purchase of the following vehicles 'Ford F-150':")
+        print("\nThe AutoCountry sales manager has authorized the purchase of the following vehicles:")
         for vehicle in allowed_vehicles:
             print(vehicle)
         print()  # Add a newline for better readability
