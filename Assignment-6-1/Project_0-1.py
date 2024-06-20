@@ -10,39 +10,31 @@
 # Input: Truck Brands
 # Output: Array
 
-# start
-
-# carfinder.py
-
 # List of allowed vehicles
-AllowedVehiclesList = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
+allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
-def print_menu():
-    print("********************************")
-    print("AutoCountry Vehicle Finder v0.1")
-    print("********************************")
-    print("Please Enter the following number below from the following menu:\n")
-    print("1. PRINT all Authorized Vehicles")
-    print("2. Exit")
+while True:
+    print("""
+********************************
+AutoCountry Vehicle Finder v0.1
+********************************
+Please Enter the following number below from the following menu:
 
-def print_allowed_vehicles():
-    print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
-    for vehicle in AllowedVehiclesList:
-        print(vehicle)
-    print()  # Add a newline for better readability
+1. PRINT all Authorized Vehicles
+2. Exit
+""")
+    
+    choice = input("Enter your choice: ").strip()
+    
+    if choice == '1':
+        print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
+        for vehicle in allowed_vehicles:
+            print(vehicle)
+        print()  # Add a newline for better readability
+    elif choice == '2':
+        print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
+        break
+    else:
+        print("Invalid choice. Please enter 1 or 2.\n")
 
-def main():
-    while True:
-        print_menu()
-        choice = input("Enter your choice: ").strip()
-        if choice == '1':
-            print_allowed_vehicles()
-        elif choice == '2':
-            print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
-            break
-        else:
-            print("Invalid choice. Please enter 1 or 2.\n")
-
-if __name__ == "__main__":
-    main()
 
