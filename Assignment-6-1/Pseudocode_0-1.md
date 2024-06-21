@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 
 # Script name: Project 0-1 Pseudocode
 # Author Name: Christen Reinhart
