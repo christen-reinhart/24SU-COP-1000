@@ -12,7 +12,7 @@
 # Program Name: AutoCountry Vehicle Finder
 
 # Data Structures
-# - authorized_vehicles: Array of Strings (stores names of authorized vehicles)
+# - authorized_vehicles: Array of Vehicles (stores names of authorized vehicles)
 
 # Main Loop
 # While True:
