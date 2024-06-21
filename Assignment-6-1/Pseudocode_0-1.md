@@ -30,7 +30,7 @@
 #      - Print vehicle name
 #   - Print newline
 #  - Else if choice is equal to "2":
-#    - Print message: "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
+#    - Print message: "Thank you for using the AutoCountry Vehicle Finder, #        good-bye!"
 #    - Break loop (exit program)
 #  - Else:
 #    - Print message: "Invalid choice. Please enter 1 or 2."
