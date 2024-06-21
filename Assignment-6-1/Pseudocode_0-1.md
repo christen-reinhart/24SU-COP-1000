@@ -3,7 +3,7 @@
 # Script name: Project 0-1 Pseudocode
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 06/20/2024
-# Purpose: Arrays
+# Purpose: Display/Print Vehicles
 # Input: Truck Brands
 # Output: Array
 
