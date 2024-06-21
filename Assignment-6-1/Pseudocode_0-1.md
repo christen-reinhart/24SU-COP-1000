@@ -25,7 +25,7 @@
 #    Get user choice 
 #    Convert choice to uppercase 
 #    If choice is equal to "1":
-#      Print message: "The AutoCountry sales manager has authorized..."
+#      Print message: "The AutoCountry sales manager has authorized"
 #      Loop through each vehicle in authorized_vehicles:
 #        Print vehicle name
 #     Print newline
