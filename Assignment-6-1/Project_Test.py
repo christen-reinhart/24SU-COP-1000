@@ -6,7 +6,7 @@
 # Purpose: Array
 # Input: Truck Brands
 # Output: Trucks for Sale
-
+# start
 # List of allowed vehicles
 allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
@@ -54,3 +54,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# end
