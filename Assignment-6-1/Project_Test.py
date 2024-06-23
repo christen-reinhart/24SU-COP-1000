@@ -1,55 +1,56 @@
 #!/usr/bin/env python3
 
-# Script name: Project Test
+# Script name: Project 0-1
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/21/2024
-# Purpose: Arrays
-# Reference Chat GPT: https://chatgpt.com/share/6e22c821-64b7-4926-83c7-f5743cb5a143
-# Initial Draft With Assistance
+# Date of Latest Revision: 06/23/2024
+# Purpose: Array
+# Input: Truck Brands
+# Output: Trucks for Sale
 
-# Input: 
-# Output: Array
+# List of allowed vehicles
+allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
-# carfinder.py
+def print_banner():
+    print("""
+********************************
+AutoCountry Vehicle Finder v0.2
+********************************
+Please Enter the following number below from the following menu:
 
-# List of allowed vehicles (consider storing in a file for easier updates)
-AllowedVehiclesList = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
+1. PRINT all Authorized Vehicles
+2. SEARCH for Authorized Vehicle
+3. Exit
+""")
 
+def print_authorized_vehicles(vehicles):
+    print("\nThe AutoCountry sales manager has authorized the purchase of the following vehicles:")
+    for vehicle in vehicles:
+        print(vehicle)
+    print()
 
-def print_menu():
-  """Prints the user menu with options."""
-  print("********************************")
-  print("AutoCountry Vehicle Finder v0.1")
-  print("********************************")
-  print("Please Enter the following number below from the following menu:\n")
-  print("1. PRINT all Authorized Vehicles")
-  print("2. Exit")
-
-
-def print_allowed_vehicles():
-  """Prints a message and the list of authorized vehicles."""
-  print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
-  for vehicle in AllowedVehiclesList:
-    print(vehicle)
-  print()  # Add a newline for better readability
-
+def search_vehicle(vehicles, search_query):
+    if search_query in vehicles:
+        print(f"\n{search_query} is an authorized vehicle")
+    else:
+        print(f"\n{search_query} is not an authorized vehicle, if you received this in error please check the spelling and try again")
+    print()
 
 def main():
-  """Main function that runs the program in a loop."""
-  while True:
-    print_menu()
-    try:
-      choice = input("Enter your choice (1 or 2): ").strip().upper()  # Handle both uppercase and lowercase input
-      if choice == '1':
-        print_allowed_vehicles()
-      elif choice == '2':
-        print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
-        break
-      else:
-        print("Invalid choice. Please enter 1 or 2.\n")
-    except ValueError:  # Handle non-numeric input errors
-      print("Invalid input. Please enter a number (1 or 2).\n")
-
+    while True:
+        print_banner()
+        
+        choice = input("Enter your choice: ").strip()
+        
+        if choice == '1':
+            print_authorized_vehicles(allowed_vehicles)
+        elif choice == '2':
+            search_query = input("Please Enter the full Vehicle name: ").strip()
+            search_vehicle(allowed_vehicles, search_query)
+        elif choice == '3':
+            print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
+            break
+        else:
+            print("Invalid choice. Please enter 1, 2, or 3.\n")
 
 if __name__ == "__main__":
-  main()
+    main()
