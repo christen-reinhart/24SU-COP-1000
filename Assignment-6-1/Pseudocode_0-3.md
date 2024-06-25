@@ -1,3 +1,14 @@
+# !/usr/bin/env python3
+
+# Script name: Project 0-2 Pseudocode
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 06/25/2024
+# Purpose: Arrays
+# Input: Truck Brands
+# Output: Array
+
+# CarFinder v0.2 Pseudocode
+
 # Program Name: AutoCountry Vehicle Finder
 
 # Data Structures
