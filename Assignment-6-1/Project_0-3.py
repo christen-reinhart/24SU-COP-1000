@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-# Script name: Project 0-2 
+# Script name: Project 0-3 
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/25/2024
+# Date of Latest Revision: 06/28/2024
 # Purpose: Vehicle Finder
 
 # Input: Array with Trucks for car Finder
 # Output: Options
 
 # CarFinder v0.3
-
+# start
 # List of allowed vehicles
 allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
@@ -64,3 +64,5 @@ Please enter the following number below from the following menu:
     else:
         # Handle invalid input
         print("Invalid choice. Please enter 1, 2, 3, or 4.\n")
+        
+# end
