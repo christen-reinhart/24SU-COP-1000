@@ -2,7 +2,7 @@
 
 # Script name: Project 0-2 
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/24/2024
+# Date of Latest Revision: 06/25/2024
 # Purpose: Vehicle Finder
 
 # Input: Array with Trucks for car Finder
