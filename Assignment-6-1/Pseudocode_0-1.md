@@ -7,7 +7,7 @@
 # Input: Truck Brands
 # Output: Array
 
-# Pseudocode
+# CarFinder v0.1 Pseudocode
 
 # Program Name: AutoCountry Vehicle Finder
 
