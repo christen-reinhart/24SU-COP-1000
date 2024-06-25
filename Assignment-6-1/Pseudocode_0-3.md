@@ -1,8 +1,8 @@
 # !/usr/bin/env python3
 
-# Script name: Project 0-2 Pseudocode
+# Script name: Project 0-3 Pseudocode
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/25/2024
+# Date of Latest Revision: 06/27/2024
 # Purpose: Arrays
 # Input: Truck Brands
 # Output: Array
