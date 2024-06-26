@@ -34,14 +34,14 @@ Please Enter the following number below from the following menu:
         print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
         for vehicle in allowed_vehicles:
             print(vehicle)
-        print()  # Add a newline for better readability
+        print()  
     elif choice == '2':
         search_vehicle = input("Please enter the full vehicle name: ").strip()
         if search_vehicle in allowed_vehicles:
             print(f"\n{search_vehicle} is an authorized vehicle")
         else:
             print(f"\n{search_vehicle} is not an authorized vehicle, if you received this in error please check the spelling and try again")
-        print()  # Add a newline for better readability
+        print()  
     elif choice == '3':
         print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
         break
