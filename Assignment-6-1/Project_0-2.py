@@ -15,6 +15,7 @@
 # List of allowed vehicles
 allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
+# While true print banner below
 while True:
     print("""
 ********************************
