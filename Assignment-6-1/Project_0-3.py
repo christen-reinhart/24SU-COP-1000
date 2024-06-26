@@ -37,7 +37,7 @@ Please enter the following number below from the following menu:
         print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
         for vehicle in allowed_vehicles:
             print(vehicle)
-        print()  # Add a newline for better readability
+        print()  
     
     elif choice == '2':
         # Search for a specific authorized vehicle
@@ -46,7 +46,7 @@ Please enter the following number below from the following menu:
             print(f"\n{search_vehicle} is an authorized vehicle.")
         else:
             print(f"\n{search_vehicle} is not an authorized vehicle. If you received this in error, please check the spelling and try again.")
-        print()  # Add a newline for better readability
+        print()  
 
     elif choice == '3':
         # Add a new authorized vehicle
@@ -56,7 +56,7 @@ Please enter the following number below from the following menu:
             print(f'\nYou have added "{new_vehicle}" as an authorized vehicle.')
         else:
             print(f'\n"{new_vehicle}" is already an authorized vehicle.')
-        print()  # Add a newline for better readability
+        print()  
     
     elif choice == '4':
         # Exit the program
