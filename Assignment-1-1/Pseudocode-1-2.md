@@ -8,17 +8,17 @@
 
 # start
 
-  # Prompt the user to enter a value
-  # DISPLAY "Enter a value: "
+# prompt user to enter a value
+# DISPLAY "Enter a value: "
   
-  # Read the user input
-  # INPUT numValue
+# read user input
+# INPUT numValue
   
-  # Multiply the user input by 10
-  # result = numValue * 10
+# multiply the user input by 10
+# result = numValue * 10
   
-  # Output the result
-  # DISPLAY "The result is: ", result
+# Output result
+# DISPLAY "The result is: ", result
 
 # end
 
