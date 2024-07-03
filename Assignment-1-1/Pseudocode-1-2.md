@@ -25,11 +25,11 @@
 
 # Python Example
 
-# Prompt the user to enter a value
+# Prompt user to enter a value
 # num_value = int(input("Enter a value: "))
 
-# Multiply the user input by 10
+# Multiply user input by 10
 # result = num_value * 10
 
-# Output the result
+# Output result
 # print("The result is:", result)
