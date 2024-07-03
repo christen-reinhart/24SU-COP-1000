@@ -6,7 +6,7 @@
 # Sources Pseudocode
 # Purpose Pseudocode for mulitplication  
 
-# START
+# start
 
   # Prompt the user to enter a value
   # DISPLAY "Enter a value: "
@@ -20,7 +20,7 @@
   # Output the result
   # DISPLAY "The result is: ", result
 
-# END
+# end
 
 
 # Python Example
