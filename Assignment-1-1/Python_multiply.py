@@ -4,7 +4,7 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 05/17/2024
 # Sources Pseudocode
-# Purpose Pseudocode for mulitplication  
+# Purpose Mulitplication for Pseudocode
 
 # Python Example
 
