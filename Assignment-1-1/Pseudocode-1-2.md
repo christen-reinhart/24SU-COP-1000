@@ -17,19 +17,19 @@
 # multiply the user input by 10
 # result = numValue * 10
   
-# Output result
+# output result
 # DISPLAY "The result is: ", result
 
 # end
 
 
-# Python Example
+# python example
 
 # Prompt user to enter a value
 # num_value = int(input("Enter a value: "))
 
-# Multiply user input by 10
+# multiply user input by 10
 # result = num_value * 10
 
-# Output result
+# output result
 # print("The result is:", result)
