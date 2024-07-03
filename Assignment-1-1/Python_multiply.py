@@ -8,6 +8,8 @@
 
 # Python Example
 
+# start
+
 # Prompt the user to enter a value
 num_value = int(input("Enter a value: "))
 
@@ -16,3 +18,5 @@ result = num_value * 10
 
 # Output the result
 print("The result is:", result)
+
+# end
