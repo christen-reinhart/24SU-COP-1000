@@ -12,10 +12,10 @@
   # DISPLAY "Enter a value: "
   
   # Read the user input
-  # INPUT userValue
+  # INPUT numValue
   
-  ## Multiply the user input by 10
-  ## result = userValue * 10
+  # Multiply the user input by 10
+  # result = numValue * 10
   
   # Output the result
   # DISPLAY "The result is: ", result
@@ -23,3 +23,13 @@
 # END
 
 
+# Python Example
+
+# Prompt the user to enter a value
+# num_value = float(input("Enter a value: "))
+
+# Multiply the user input by 10
+# result = num_value * 10
+
+# Output the result
+# print("The result is:", result)
