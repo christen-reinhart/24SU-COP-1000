@@ -9,10 +9,10 @@
 # Python Example
 
 # Prompt the user to enter a value
-# num_value = float(input("Enter a value: "))
+num_value = float(input("Enter a value: "))
 
 # Multiply the user input by 10
-# result = num_value * 10
+result = num_value * 10
 
 # Output the result
-# print("The result is:", result)
+print("The result is:", result)
