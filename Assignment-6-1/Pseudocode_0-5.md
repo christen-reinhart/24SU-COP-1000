@@ -1,3 +1,16 @@
+# !/usr/bin/env python3
+
+# Script name: Project 0-4 Pseudocode
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 07/04/2024
+# Purpose: Arrays
+# Input: Truck Brands
+# Output: Array
+
+# CarFinder v0.4 Pseudocode
+
+# Program Name: AutoCountry Vehicle Finder
+
 START
 
 DEFINE file_name AS 'allowed_vehicles.txt'
