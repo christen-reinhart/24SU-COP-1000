@@ -11,10 +11,7 @@
 
 # Program Name: AutoCountry Vehicle Finder
 
-# Data Structures
-# - allowed_vehicles: Array of Vehicles (stores names of authorized vehicles)
 
-# Main Loop
 WHILE True DO
     # Display Menu
     PRINT "********************************"
