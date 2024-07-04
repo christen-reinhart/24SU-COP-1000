@@ -2,7 +2,7 @@
 
 # Script name: Project 0-4 Pseudocode
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 06/28/2024
+# Date of Latest Revision: 07/04/2024
 # Purpose: Arrays
 # Input: Truck Brands
 # Output: Array
