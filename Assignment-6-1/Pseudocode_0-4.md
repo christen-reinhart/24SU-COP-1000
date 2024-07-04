@@ -36,17 +36,17 @@ WHILE True DO
         FOR vehicle IN allowed_vehicles DO
             PRINT vehicle
         END FOR
-        PRINT ""  # Add a newline for better readability
+        PRINT ""  
     
     ELSE IF choice = "2" THEN
         # Search for a specific authorized vehicle
         search_vehicle = INPUT "Please enter the full vehicle name: "
         IF search_vehicle IN allowed_vehicles THEN
-            PRINT search_vehicle + " is an authorized vehicle."
+            PRINT search_vehicle + " Is an authorized vehicle."
         ELSE
-            PRINT search_vehicle + " is not an authorized vehicle. Please check the spelling and try again."
+            PRINT search_vehicle + " Is not an authorized vehicle. Please check the spelling and try again."
         END IF
-        PRINT ""  # Add a newline for better readability
+        PRINT ""  
     
     ELSE IF choice = "3" THEN
         # Add a new authorized vehicle
@@ -57,7 +57,7 @@ WHILE True DO
         ELSE
             PRINT '"' + new_vehicle + '" is already an authorized vehicle.'
         END IF
-        PRINT ""  # Add a newline for better readability
+        PRINT ""  
     
     ELSE IF choice = "4" THEN
         # Delete an authorized vehicle
@@ -71,9 +71,9 @@ WHILE True DO
                 PRINT '"' + remove_vehicle + '" was not removed.'
             END IF
         ELSE
-            PRINT '"' + remove_vehicle + '" is not an authorized vehicle.'
+            PRINT '"' + remove_vehicle + '" Is not an authorized vehicle.'
         END IF
-        PRINT ""  # Add a newline for better readability
+        PRINT ""  
 
     ELSE IF choice = "5" THEN
         # Exit the program
@@ -83,6 +83,6 @@ WHILE True DO
     ELSE
         # Handle invalid input
         PRINT "Invalid choice. Please enter 1, 2, 3, 4, or 5."
-        PRINT ""  # Add a newline for separation
+        PRINT ""  
     END IF
 END WHILE
