@@ -48,7 +48,7 @@ while True:
     # Display menu
     print("""
 ********************************
-AutoCountry Vehicle Finder v0.4
+AutoCountry Vehicle Finder v0.5
 ********************************
 Please enter the following number below from the following menu:
 
