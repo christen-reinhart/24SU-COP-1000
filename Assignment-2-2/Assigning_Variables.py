@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Script name: Assignment 2-1
+# Script name: Assignment 2-2
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 05/23/2024
 # Purpose: Assignment 2-2 Variables in Python with Pseudocode
