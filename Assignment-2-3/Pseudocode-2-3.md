@@ -9,9 +9,9 @@
 # start
 
 # Initialize item details
-# SET itemName TO "TV Stand"
-# SET retailPrice TO 325.00
-# SET wholesalePrice TO 200.00
+# Set itemName TO "TV Stand"
+# Set retailPrice TO 325.00
+# Set wholesalePrice TO 200.00
 
 # Calculate profit
 # Set profit TO retailPrice - wholesalePrice
