@@ -12,15 +12,15 @@
 # start
 
 # Constants
-g = 4
-h = 6
+# g = 4
+# h = 6
 
 # Loop until g is greater than h
-while g <= h:
-    g = g + 1  # Increment g by 1
+# while g <= h:
+# g = g + 1  # Increment g by 1
 
 # Print the final values of g and h
-print(g, h)
+# print(g, h)
 
 # end
 
@@ -32,7 +32,7 @@ print(g, h)
 # h = 6
 # 
 # while g < h
-    # g = g + 1
+# g = g + 1
     
 # endwhile
 # output g, h
@@ -45,8 +45,8 @@ print(g, h)
 
 # Loop until g is less than h
 # while g < h:
-    # Increment g by 1
-    # g = g + 1
+# Increment g by 1
+# g = g + 1
 
 # Output the values of g and h
 # print("g:", g)
