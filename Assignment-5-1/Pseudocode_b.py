@@ -30,17 +30,6 @@
 
 # start
 
-# d = 4
-# e = 6
-# f = 7
-# while d < f
-# d = d + 1
-# e = e - 1
-# endwhile
-# output d, e, f
-
-# end
-
 # Initialize variables
 # d = 4
 # e = 6
@@ -58,3 +47,5 @@
 # print("d:", d)
 # print("e:", e)
 # print("f:", f)
+
+# end
