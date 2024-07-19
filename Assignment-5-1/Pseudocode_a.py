@@ -34,8 +34,8 @@
 # b = 2
 # c = 5
 # while a < c
-    # a = a + 1
-    # b = B + c
+# a = a + 1
+# b = B + c
 # endwhile
 # output a, b, c
 
@@ -48,11 +48,11 @@
 
 # Loop until a is less than c
 # while a < c:
-    # Increment a by 1
-    # a = a + 1
+# Increment a by 1
+# a = a + 1
     
-    # Increment b by c
-    # b = b + c
+# Increment b by c
+# b = b + c
 
 # Output the values of a, b, and c
 # print("a:", a)
