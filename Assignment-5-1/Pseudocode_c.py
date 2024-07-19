@@ -28,16 +28,6 @@
 
 # start
 
-# g = 4
-# h = 6
-# 
-# while g < h
-# g = g + 1
-    
-# endwhile
-# output g, h
-
-# end
 
 # Initialize variables
 # g = 4
@@ -51,4 +41,6 @@
 # Output the values of g and h
 # print("g:", g)
 # print("h:", h)
+
+# end
   
