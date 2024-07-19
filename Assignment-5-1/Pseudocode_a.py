@@ -30,17 +30,6 @@
 
 # start
 
-# a = 1 
-# b = 2
-# c = 5
-# while a < c
-# a = a + 1
-# b = B + c
-# endwhile
-# output a, b, c
-
-# end
-
 # Initialize variables
 # a = 1 
 # b = 2
@@ -58,3 +47,5 @@
 # print("a:", a)
 # print("b:", b)
 # print("c:", c)
+
+# end
