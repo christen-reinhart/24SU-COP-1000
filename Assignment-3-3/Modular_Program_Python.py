@@ -11,7 +11,7 @@
 
 # start
 
-# Constants
+# constants
 MIN_YEAR = 0
 MIN_MONTH = 1
 MAX_MONTH = 12
