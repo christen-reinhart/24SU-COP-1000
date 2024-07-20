@@ -23,20 +23,20 @@ MAX_MONTH = 12
 MIN_DAY = 1
 MAX_DAY = 31
 
-# Main function to check if a date is valid
-def main():
-    validDate = True
+# Variable to determine if the date is valid
+validDate = True
 
-    # Get the year, month, and day from the user
-    try:
-        year = int(input("Enter year: "))
-        month = int(input("Enter month (1-12): "))
-        day = int(input("Enter day: "))
-    except ValueError:
-        print("Invalid input. Please enter numeric values for year, month, and day.")
-        return
+# Get the year, month, and day from the user
+try:
+    year = int(input("Enter year: "))
+    month = int(input("Enter month (1-12): "))
+    day = int(input("Enter day: "))
+except ValueError:
+    print("Invalid input. Please enter numeric values for year, month, and day.")
+    validDate = False
 
-    # Check year
+# Check year
+if validDate:
     if year < MIN_YEAR:
         validDate = False
     # Check month
@@ -51,14 +51,11 @@ def main():
         elif day < MIN_DAY or day > MAX_DAY:  # All other months
             validDate = False
 
-    # Output the result
-    if validDate:
-        print(f"{month}/{day}/{year} is a valid date.")
-    else:
+# Output the result
+if validDate:
+    print(f"{month}/{day}/{year} is a valid date.")
+else:
+    if validDate: # checks to see if date is valid before proceeding
         print(f"{month}/{day}/{year} is an invalid date.")
 
-# Run the main function
-if __name__ == "__main__":
-    main()
-
-#end
+# end
