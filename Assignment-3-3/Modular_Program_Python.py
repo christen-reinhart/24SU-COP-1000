@@ -23,10 +23,10 @@ MAX_MONTH = 12
 MIN_DAY = 1
 MAX_DAY = 31
 
-# Variable to determine if the date is valid
+# variable to determine if the date is valid
 validDate = True
 
-# Get the year, month, and day from the user
+# month, and day from the user
 try:
     year = int(input("Enter year: "))
     month = int(input("Enter month (1-12): "))
@@ -44,11 +44,11 @@ if validDate:
         validDate = False
     else:
         # Check day based on month
-        if month in [4, 6, 9, 11] and (day < MIN_DAY or day > 30):  # April, June, September, November have 30 days
+        if month in [4, 6, 9, 11] and (day < MIN_DAY or day > 30):  
             validDate = False
-        elif month == 2 and (day < MIN_DAY or day > 28):  # February has 28 days (ignoring leap years)
+        elif month == 2 and (day < MIN_DAY or day > 28):  
             validDate = False
-        elif day < MIN_DAY or day > MAX_DAY:  # All other months
+        elif day < MIN_DAY or day > MAX_DAY:  
             validDate = False
 
 # Output the result
