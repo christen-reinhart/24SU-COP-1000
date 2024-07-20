@@ -12,7 +12,7 @@
 # Prompting user for input
 # numChars = convert input("Enter the number of characters: ") to integer
 # woodType = convert input("Enter the type of wood (oak or pine): ")
-# color = convert input("Enter the color of characters (black, white, or gold): 
+# color = convert input("Enter the color of characters (black, white, or gold):")
 
 # base charge
 # set charge to 35.00
