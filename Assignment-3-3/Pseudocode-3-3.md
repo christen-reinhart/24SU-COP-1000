@@ -12,9 +12,9 @@
 
 # get the year, month, and day from the user
 # try:
-# year = convert input("Enter year: ") to integer
-# month = convert input("Enter month (1-12): ") to integer
-# day = convert input("Enter day: ") to integer
+# year = convert input("Enter year: ")  integer
+# month = convert input("Enter month (1-12): ")  integer
+# day = convert input("Enter day: ")  integer
 # except ValueError:
 # print "Invalid input. Please enter numeric values for year, month, and day."
 # set validDate to False
