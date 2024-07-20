@@ -9,11 +9,6 @@
 # Input: Interactive Year, Month, Day
 # Output: Calculate date based upon inputs
 
-# Summary:
-# This program determines if a date entered by the user is valid.
-# When completed, the user should be able to enter a year, a month, and a day. The program then determines if the date is valid.
-# Valid years are those that are greater than 0, valid months include the values 1 through 12, and valid days include the values 1 through 31.
-
 #start
 
 validDate = True
