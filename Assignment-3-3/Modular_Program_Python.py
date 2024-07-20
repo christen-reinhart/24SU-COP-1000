@@ -35,7 +35,7 @@ except ValueError:
     print("Invalid input. Please enter numeric values for year, month, and day.")
     validDate = False
 
-# Check year
+# check year
 if validDate:
     if year < MIN_YEAR:
         validDate = False
@@ -51,7 +51,7 @@ if validDate:
         elif day < MIN_DAY or day > MAX_DAY:  
             validDate = False
 
-# Output the result
+# output the result
 if validDate:
     print(f"{month}/{day}/{year} is a valid date.")
 else:
