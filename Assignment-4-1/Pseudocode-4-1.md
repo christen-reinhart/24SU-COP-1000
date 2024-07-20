@@ -2,20 +2,21 @@
 
 # start
 
-# PROMPT "Enter the number of characters: "
-# READ numChars
-# CONVERT numChars TO INTEGER
+# prompt "Enter the number of characters: "
+# read numChars
+# convert numChars to integer
     
-# PROMPT "Enter the type of wood (oak or pine): "
-# READ woodType
-# CONVERT woodType 
+# prompt "Enter the type of wood (oak or pine): "
+# read woodType
+# convert woodType 
     
-# PROMPT "Enter the color of characters (black, white, or gold): "
-# READ color
-# CONVERT color 
+# prompt "Enter the color of characters (black, white, or gold): "
+# read color
+# convert color 
     
-# SET charge TO calculate_charge(numChars, woodType, color)
+# set charge to calculate_charge(numChars, woodType, color)
     
-# PRINT "The charge for this sign is $" + FORMAT charge TO 2 DECIMAL PLACES
+# print "The charge for this sign is $" + format charge to 2 decimal places
 
 # end
+
