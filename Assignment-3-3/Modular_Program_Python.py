@@ -11,16 +11,17 @@
 
 # start
 
+# Constants
 MIN_YEAR = 0
 MIN_MONTH = 1
 MAX_MONTH = 12
 MIN_DAY = 1
 MAX_DAY = 31
 
-# variable to determine if the date is valid
+# Variable to determine if the date is valid
 validDate = True
 
-# month, and day from the user
+# Get the year, month, and day from the user
 try:
     year = int(input("Enter year: "))
     month = int(input("Enter month (1-12): "))
@@ -29,7 +30,7 @@ except ValueError:
     print("Invalid input. Please enter numeric values for year, month, and day.")
     validDate = False
 
-# check year
+# Check year
 if validDate:
     if year < MIN_YEAR:
         validDate = False
@@ -38,18 +39,17 @@ if validDate:
         validDate = False
     else:
         # Check day based on month
-        if month in [4, 6, 9, 11] and (day < MIN_DAY or day > 30):  
+        if month in [4, 6, 9, 11] and (day < MIN_DAY or day > 30):  # April, June, September, November have 30 days
             validDate = False
-        elif month == 2 and (day < MIN_DAY or day > 28):  
+        elif month == 2 and (day < MIN_DAY or day > 28):  # February has 28 days (ignoring leap years)
             validDate = False
-        elif day < MIN_DAY or day > MAX_DAY:  
+        elif day < MIN_DAY or day > MAX_DAY:  # All other months
             validDate = False
 
-# output the result
+# Output the result
 if validDate:
     print(f"{month}/{day}/{year} is a valid date.")
 else:
-    if validDate: # checks to see if date is valid before proceeding
-        print(f"{month}/{day}/{year} is an invalid date.")
+    print(f"{month}/{day}/{year} is an invalid date.")
 
 # end
