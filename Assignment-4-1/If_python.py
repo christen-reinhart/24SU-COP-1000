@@ -5,10 +5,6 @@
 # Date of Latest Revision: 07/20/2024
 # Purpose: Calculculate Sign Cost
 
-# This Calculates Dates
-# Input: Interactive Characters, Wood, Color
-# Output: Calculate price based upon inputs
-
 # start
 
 # Prompting user for input
