@@ -1,3 +1,14 @@
+#!/usr/bin/env python3
+
+# Script name: Assignment 4-1
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 07/20/2024
+# Purpose: Calculculate Sign Cost
+
+# This Calculates Dates
+# Input: Interactive Characters, Wood, Color
+# Output: Calculate price based upon inputs
+
 # start
 
 # Prompting user for input
