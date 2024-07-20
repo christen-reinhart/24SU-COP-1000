@@ -1,30 +1,31 @@
-BEGIN
-    // Start from home
+# begin
+# Start from home
     
-    // Go north on Rome Ave until you reach Columbus
-    WHILE not at Columbus
-        GO north on Rome Ave
-    ENDWHILE
+# Go north on Rome Ave until you reach Columbus
+# while not at Columbus do
+# go north on Rome Ave
+# end while
     
-    // Turn left onto Columbus and go west
-    TURN left onto Columbus
-    WHILE not at Dale Mabry
-        GO west on Columbus
-    ENDWHILE
+# Turn left onto Columbus and go west
+# turn left onto Columbus
+# while not at Dale Mabry do
+# go west on Columbus
+# end while
     
-    // Turn right onto Dale Mabry and go north
-    TURN right onto Dale Mabry
-    WHILE not at Tampa Bay Blvd
-        GO north on Dale Mabry
-    ENDWHILE
+# Turn right onto Dale Mabry and go north
+# turn right onto Dale Mabry
+# while not at Tampa Bay Blvd do
+# go north on Dale Mabry
+# end while
     
-    // Turn left onto Tampa Bay Blvd and find the school
-    TURN left onto Tampa Bay Blvd
-    WHILE school is not on the right
-        GO west on Tampa Bay Blvd
-    ENDWHILE
+# Turn left onto Tampa Bay Blvd and find the school
+# turn left onto Tampa Bay Blvd
+# while school is not on the right do
+# go west on Tampa Bay Blvd
+# end while
     
-    // Arrive at the school
-    PRINT "You have arrived at the school."
-END
+# Arrive at the school
+# print "You have arrived at the school."
+# end
+
 
