@@ -21,13 +21,13 @@
 # Determine the bonus:
 
 # if productivity score <= 30
-#     bonus = 50.00
+# bonus = 50.00
 # else if 31 <= productivity score <= 69
-#     bonus = 75.00
+# bonus = 75.00
 # else if 70 <= productivity score <= 199
-#     bonus = 100.00
+# bonus = 100.00
 # else if productivity score >= 200:
-#     bonus = 200.00
+# bonus = 200.00
 
 # Output:
 
