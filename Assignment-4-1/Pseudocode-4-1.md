@@ -1,3 +1,10 @@
+# !/usr/bin/env python3
+
+# Script name: Assignment 4-1
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 06/04/2024
+# Purpose: Calculculate Sign Cost Pseudocode
+
 # Assignment-4-1 Pseudocode
 
 # start
