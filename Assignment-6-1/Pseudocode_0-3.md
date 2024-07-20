@@ -15,57 +15,58 @@
 # - allowed_vehicles: Array of Vehicles (stores names of authorized vehicles)
 
 # Main Loop
-# WHILE True DO
+# while true do
 # Display Menu
-# PRINT "********************************"
-# PRINT "AutoCountry Vehicle Finder v0.3"
-# PRINT "********************************"
-# PRINT "Please enter the following number below from the following menu:"
-# PRINT "1. PRINT all Authorized Vehicles"
-# PRINT "2. SEARCH for Authorized Vehicle"
-# PRINT "3. ADD Authorized Vehicle"
-# PRINT "4. Exit"
+# print "********************************"
+# print "AutoCountry Vehicle Finder v0.3"
+# print "********************************"
+# print "Please enter the following number below from the following menu:"
+# print "1. print all Authorized Vehicles"
+# print "2. search for Authorized Vehicle"
+# print "3. add Authorized Vehicle"
+# print "4. Exit"
     
 # Get user choice
-# choice = INPUT "Enter your choice: "
+# choice = input "Enter your choice: "
     
 # Process choice
-# IF choice = "1" THEN
-# PRINT "The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:"
-# FOR vehicle IN allowed_vehicles DO
-# PRINT vehicle
-# END FOR
-# PRINT ""  # Add a newline for better readability
+# if choice = "1" then
+# print "The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:"
+# for vehicle in allowed_vehicles do
+# print vehicle
+# end for
+# print ""  # Add a newline for better readability
     
-# ELSE IF choice = "2" THEN
+# else if choice = "2" then
 # Search for a specific authorized vehicle
-# search_vehicle = INPUT "Please enter the full vehicle name: "
-# IF search_vehicle IN allowed_vehicles THEN
-# PRINT search_vehicle + " is an authorized vehicle."
-# ELSE
-# PRINT search_vehicle + " is not an authorized vehicle. Please check the spelling and try again."
-# END IF
-# PRINT ""  # Add a newline for better readability
+# search_vehicle = input "Please enter the full vehicle name: "
+# if search_vehicle in allowed_vehicles then
+# print search_vehicle + " is an authorized vehicle."
+# else
+# print search_vehicle + " is not an authorized vehicle. Please check the spelling and try again."
+# end if
+# print ""  # Add a newline for better readability
     
-# ELSE IF choice = "3" THEN
+# else if choice = "3" then
 # Add a new authorized vehicle
-# new_vehicle = INPUT "Please enter the full vehicle name you would like to add: "
-# IF new_vehicle NOT IN allowed_vehicles THEN
-# ADD new_vehicle TO allowed_vehicles
-# PRINT 'You have added "' + new_vehicle + '" as an authorized vehicle.'
-# ELSE
-# PRINT '"' + new_vehicle + '" is already an authorized vehicle.'
-# END IF
-# PRINT ""  # Add a newline for better readability
+# new_vehicle = input "Please enter the full vehicle name you would like to add: "
+# if new_vehicle not in allowed_vehicles then
+# add new_vehicle to allowed_vehicles
+# print 'You have added "' + new_vehicle + '" as an authorized vehicle.'
+# else
+# print '"' + new_vehicle + '" is already an authorized vehicle.'
+# end if
+# print ""  # Add a newline for better readability
     
-# ELSE IF choice = "4" THEN
+# else if choice = "4" then
 # Exit the program
-# PRINT "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
-# BREAK  # Exit the loop
+# print "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
+# break  # Exit the loop
     
-# ELSE
+# else
 # Handle invalid input
-# PRINT "Invalid choice. Please enter 1, 2, 3, or 4."
-# PRINT ""  # Add a newline for separation
-# END IF
-# END WHILE
+# print "Invalid choice. Please enter 1, 2, 3, or 4."
+# print ""  # Add a newline for separation
+# end if
+# end while
+
