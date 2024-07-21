@@ -5,7 +5,6 @@
 # Date of Latest Revision: 05/23/2024
 # Purpose: Calculates paycheck with Python
 
-# This 
 # Input:  paycheck amounts and percentages
 # Output: Calculate pay amounts
 
