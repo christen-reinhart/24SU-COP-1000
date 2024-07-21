@@ -11,6 +11,7 @@
 
 # Program Name: AutoCountry Vehicle Finder
 # start
+
 # Data Structures
 # - allowed_vehicles: Array of Vehicles (stores names of authorized vehicles)
 
@@ -31,24 +32,22 @@
     
 # Process choice
 # if choice = "1" then
-# print "The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:"
+# print all authorized vehicles
 # for vehicle in allowed_vehicles do
 # print vehicle
 # end for
-# print ""  # Add a newline for better readability
+# print newline
     
 # else if choice = "2" then
-# Search for a specific authorized vehicle
 # search_vehicle = input "Please enter the full vehicle name: "
 # if search_vehicle in allowed_vehicles then
 # print search_vehicle + " is an authorized vehicle."
 # else
 # print search_vehicle + " is not an authorized vehicle. Please check the spelling and try again."
 # end if
-# print ""  # Add a newline for better readability
+# print newline
     
 # else if choice = "3" then
-# Add a new authorized vehicle
 # new_vehicle = input "Please enter the full vehicle name you would like to add: "
 # if new_vehicle not in allowed_vehicles then
 # add new_vehicle to allowed_vehicles
@@ -56,17 +55,18 @@
 # else
 # print '"' + new_vehicle + '" is already an authorized vehicle.'
 # end if
-# print ""  # Add a newline for better readability
+# print newline
     
 # else if choice = "4" then
-# Exit the program
 # print "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
 # break  # Exit the loop
     
 # else
-# Handle invalid input
 # print "Invalid choice. Please enter 1, 2, 3, or 4."
-# print ""  # Add a newline for separation
+# print newline
 # end if
 # end while
+
+# end
+
 
