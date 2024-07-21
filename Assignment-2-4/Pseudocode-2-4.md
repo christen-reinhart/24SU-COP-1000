@@ -7,12 +7,12 @@
 
 # start
 
-# Prompt user for input and initialize variables
+# Prompt user for input and variables
 # display "Enter the weekly salary: "
 # input salary
 
 # display "Enter the number of dependents: "
-# input numDependents
+# input num dependents
 
 # Calculate state tax withholding at 6.5%
 # stateTax = salary * 0.065
