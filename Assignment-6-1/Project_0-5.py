@@ -5,7 +5,7 @@
 # Date of Latest Revision: 07/20/2024
 # Purpose: Vehicle Finder
 # Input: Truck Brands
-# Output: Array
+# Output: Print list to file
 
 # Program Name: AutoCountry Vehicle Finder
 
