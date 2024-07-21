@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 
 # Script name: Assignment 2-2
 # Author Name: Christen Reinhart
