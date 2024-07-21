@@ -1,3 +1,10 @@
+# !/usr/bin/env python3
+
+# Script name: Assignment 3-2
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 07/20/2024
+# Purpose: Calculate accept or reject
+
 # start 
 
 # Check if the testScore is 90 or above 
