@@ -8,9 +8,10 @@
 # Output: Options
 
 # start
+
 # CarFinder v0.4
 
-# List of allowed vehicles
+# list of allowed vehicles
 allowed_vehicles = [
     'Ford F-150', 
     'Chevrolet Silverado', 
@@ -21,9 +22,9 @@ allowed_vehicles = [
     'Ram 1500'
 ]
 
-# While true print banner below
+# while true print banner 
 while True:
-    # Display menu
+    # display menu
     print("""
 ********************************
 AutoCountry Vehicle Finder v0.4
@@ -48,7 +49,7 @@ Please enter the following number below from the following menu:
         print()  
     
     elif choice == '2':
-        # Search authorized vehicle
+        # search vehicle
         search_vehicle = input("Please enter the full vehicle name: ").strip()
         if search_vehicle in allowed_vehicles:
             print(f"\n{search_vehicle} is an authorized vehicle.")
@@ -57,7 +58,7 @@ Please enter the following number below from the following menu:
         print()  
 
     elif choice == '3':
-        # Add authorized vehicle
+        # add vehicle
         new_vehicle = input("Please enter the full vehicle name you would like to add: ").strip()
         if new_vehicle not in allowed_vehicles:
             allowed_vehicles.append(new_vehicle)
@@ -67,7 +68,7 @@ Please enter the following number below from the following menu:
         print()  
     
     elif choice == '4':
-        # Delete vehicle
+        # delete vehicle
         remove_vehicle = input("Please enter the full vehicle name you would like to REMOVE: ").strip()
         if remove_vehicle in allowed_vehicles:
             confirm = input(f'Are you sure you want to remove "{remove_vehicle}" from the Authorized Vehicles List? (yes/no): ').strip().lower()
