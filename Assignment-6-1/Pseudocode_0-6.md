@@ -11,121 +11,122 @@
 
 # Program Name: AutoCountry Vehicle Finder
 
-START
+# start
 
-DEFINE allowed_vehicles_file AS 'allowed_vehicles.txt'
+# define allowed_vehicles_file as 'allowed_vehicles.txt'
 
-FUNCTION read_allowed_vehicles():
-    IF file does not exist(allowed_vehicles_file):
-        RETURN empty list
-    END IF
+# function read_allowed_vehicles():
+# if file does not exist(allowed_vehicles_file) then
+# return empty list
+# end if
 
-    OPEN allowed_vehicles_file FOR reading
-    vehicles = READ all lines from file and strip newline characters
-    CLOSE file
+# open allowed_vehicles_file for reading
+# vehicles = read all lines from file and strip newline characters
+# close file
 
-    RETURN vehicles
-END FUNCTION
+# return vehicles
+# end function
 
-FUNCTION write_allowed_vehicles(vehicles):
-    OPEN allowed_vehicles_file FOR writing
-    FOR EACH vehicle IN vehicles:
-        WRITE vehicle + newline character TO file
-    END FOR
-    CLOSE file
-END FUNCTION
+# function write_allowed_vehicles(vehicles):
+# open allowed_vehicles_file for writing
+# for each vehicle in vehicles do:
+# write vehicle + newline character to file
+# end for
+# close file
+# end function
 
-FUNCTION print_all_vehicles():
-    PRINT "The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:"
-    FOR EACH vehicle IN allowed_vehicles:
-        PRINT vehicle
-    END FOR
-    PRINT newline
-END FUNCTION
+# function print_all_vehicles():
+# print "The AutoCountry sales manager has authorized the purchase and selling of the following vehicles:"
+# for each vehicle in allowed_vehicles do:
+# print vehicle
+# end for
+# print newline
+# end function
 
-FUNCTION search_vehicle():
-    search_vehicle = GET user input and strip whitespace
-    IF search_vehicle IN allowed_vehicles:
-        PRINT search_vehicle + " is an authorized vehicle."
-    ELSE:
-        PRINT search_vehicle + " is not an authorized vehicle. If you received this in error, please check the spelling and try again."
-    END IF
-    PRINT newline
-END FUNCTION
+# function search_vehicle():
+# search_vehicle = get user input and strip whitespace
+# if search_vehicle in allowed_vehicles then
+# print search_vehicle + " is an authorized vehicle."
+# else:
+# print search_vehicle + " is not an authorized vehicle. If you received this in error, please check the spelling and try again."
+# end if
+# print newline
+# end function
 
-FUNCTION add_vehicle():
-    new_vehicle = GET user input and strip whitespace
-    IF new_vehicle NOT IN allowed_vehicles:
-        ADD new_vehicle TO allowed_vehicles
-        CALL write_allowed_vehicles(allowed_vehicles)
-        PRINT 'You have added "' + new_vehicle + '" as an authorized vehicle.'
-    ELSE:
-        PRINT '"' + new_vehicle + '" is already an authorized vehicle.'
-    END IF
-    PRINT newline
-END FUNCTION
+# function add_vehicle():
+# new_vehicle = get user input and strip whitespace
+# if new_vehicle not in allowed_vehicles then
+# add new_vehicle to allowed_vehicles
+# call write_allowed_vehicles(allowed_vehicles)
+# print 'You have added "' + new_vehicle + '" as an authorized vehicle.'
+# else:
+# print '"' + new_vehicle + '" is already an authorized vehicle.'
+# end if
+# print newline
+# end function
 
-FUNCTION delete_vehicle():
-    remove_vehicle = GET user input and strip whitespace
-    IF remove_vehicle IN allowed_vehicles:
-        confirm = GET user input ('yes' or 'no') and strip whitespace
-        IF confirm == 'yes':
-            REMOVE remove_vehicle FROM allowed_vehicles
-            CALL write_allowed_vehicles(allowed_vehicles)
-            PRINT 'You have REMOVED "' + remove_vehicle + '" as an authorized vehicle.'
-        ELSE:
-            PRINT '"' + remove_vehicle + '" was not removed.'
-        END IF
-    ELSE:
-        PRINT '"' + remove_vehicle + '" is not an authorized vehicle.'
-    END IF
-    PRINT newline
-END FUNCTION
+# function delete_vehicle():
+# remove_vehicle = get user input and strip whitespace
+# if remove_vehicle in allowed_vehicles then
+# confirm = get user input ('yes' or 'no') and strip whitespace
+# if confirm == 'yes' then
+# remove remove_vehicle from allowed_vehicles
+# call write_allowed_vehicles(allowed_vehicles)
+# print 'You have removed "' + remove_vehicle + '" as an authorized vehicle.'
+# else:
+# print '"' + remove_vehicle + '" was not removed.'
+# end if
+# else:
+# print '"' + remove_vehicle + '" is not an authorized vehicle.'
+# end if
+# print newline
+# end function
 
-allowed_vehicles = CALL read_allowed_vehicles()
+# allowed_vehicles = call read_allowed_vehicles()
 
-IF allowed_vehicles IS empty:
-    allowed_vehicles = [
-        'Ford F-150', 
-        'Chevrolet Silverado', 
-        'Tesla CyberTruck', 
-        'Toyota Tundra', 
-        'Rivian R1T', 
-        'Ram 1500'
-    ]
-    CALL write_allowed_vehicles(allowed_vehicles)
-END IF
+# if allowed_vehicles is empty then
+# allowed_vehicles = [
+# 'Ford F-150', 
+# 'Chevrolet Silverado', 
+# 'Tesla CyberTruck', 
+# 'Toyota Tundra', 
+# 'Rivian R1T', 
+# 'Ram 1500'
+# ]
+# call write_allowed_vehicles(allowed_vehicles)
+# end if
 
-WHILE True:
-    PRINT("""
-    ********************************
-    AutoCountry Vehicle Finder v0.5
-    ********************************
-    Please enter the following number below from the following menu:
+# while true do:
+# print("""
+# ********************************
+# AutoCountry Vehicle Finder v0.5
+# ********************************
+# Please enter the following number below from the following menu:
 
-    1. PRINT all Authorized Vehicles
-    2. SEARCH for Authorized Vehicle
-    3. ADD Authorized Vehicle
-    4. DELETE Authorized Vehicle
-    5. Exit
-    """)
+# 1. print all Authorized Vehicles
+# 2. search for Authorized Vehicle
+# 3. add Authorized Vehicle
+# 4. delete Authorized Vehicle
+# 5. Exit
+# """)
 
-    choice = GET user input and strip whitespace
+# choice = get user input and strip whitespace
 
-    IF choice == '1':
-        CALL print_all_vehicles()
-    ELSE IF choice == '2':
-        CALL search_vehicle()
-    ELSE IF choice == '3':
-        CALL add_vehicle()
-    ELSE IF choice == '4':
-        CALL delete_vehicle()
-    ELSE IF choice == '5':
-        PRINT "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
-        BREAK
-    ELSE:
-        PRINT "Invalid choice. Please enter 1, 2, 3, 4, or 5."
-        PRINT newline
-END WHILE
+# if choice == '1' then
+# call print_all_vehicles()
+# else if choice == '2' then
+# call search_vehicle()
+# else if choice == '3' then
+# call add_vehicle()
+# else if choice == '4' then
+# call delete_vehicle()
+# else if choice == '5' then
+# print "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
+# break
+# else:
+# print "Invalid choice. Please enter 1, 2, 3, 4, or 5."
+# print newline
+# end while
 
-END
+# end
+
