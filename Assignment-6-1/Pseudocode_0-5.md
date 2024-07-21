@@ -13,11 +13,13 @@
 
 # start
 
-# DEFINE file_name AS 'allowed_vehicles.txt'
+# Define the file name
+# file_name = 'allowed_vehicles.txt'
 
-# FUNCTION load_vehicles(file_name)
-# if file_name does not exist then
-# return [
+# Load vehicles from the file or use default list
+# try to open file_name for reading
+# if file not found or empty then
+# set vehicles to default list [
 # 'Ford F-150', 
 # 'Chevrolet Silverado', 
 # 'Tesla CyberTruck', 
@@ -26,89 +28,71 @@
 # 'Rivian R1T', 
 # 'Ram 1500'
 # ]
+# else
+# read vehicles from file
 # end if
-# open file_name for reading
-# read all lines from file_name into list vehicles
-# strip newline characters from each line in vehicles
-# return vehicles
-# end function
 
-# FUNCTION save_vehicles(file_name, vehicles)
+# Save vehicles to the file
 # open file_name for writing
-# for each vehicle in vehicles do
-# write vehicle to file_name with newline
-# end for
-# end function
+# write each vehicle to file
 
-# set allowed_vehicles to load_vehicles(file_name)
+# Load initial list of allowed vehicles
+# allowed_vehicles = call load_vehicles(file_name)
 
 # while true do
-# print """
-# ********************************
-# AutoCountry Vehicle Finder v0.4
-# ********************************
-# Please enter the following number below from the following menu:
+# Display menu
+# print "1. print all Authorized Vehicles"
+# print "2. search for Authorized Vehicle"
+# print "3. add Authorized Vehicle"
+# print "4. delete Authorized Vehicle"
+# print "5. Exit"
 
-# 1. print all Authorized Vehicles
-# 2. SEARCH for Authorized Vehicle
-# 3. add Authorized Vehicle
-# 4. delete Authorized Vehicle
-# 5. Exit
-# """
+# Get user choice
+# choice = input choice
 
-# set choice to input("Enter your choice: ").strip()
+# if choice == '1' then
+# print all authorized vehicles
 
-# if choice is '1' then
-# print "\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:"
-# for each vehicle in allowed_vehicles do
-# print vehicle
-# end for
-# print newline
-    
-# else if choice is '2' then
-# set search_vehicle to input("Please enter the full vehicle name: ").strip()
+# elif choice == '2' then
+# search_vehicle = input vehicle name
 # if search_vehicle in allowed_vehicles then
-# print f"\n{search_vehicle} is an authorized vehicle."
+# print "authorized vehicle"
 # else
-# print f"\n{search_vehicle} is not an authorized vehicle. If you received this in error, please check the spelling and try again."
+# print "not an authorized vehicle"
 # end if
-# print newline
 
-# else if choice is '3' then
-# set new_vehicle to input("Please enter the full vehicle name you would like to add: ").strip()
+# elif choice == '3' then
+# new_vehicle = input new vehicle name
 # if new_vehicle not in allowed_vehicles then
 # add new_vehicle to allowed_vehicles
-# call save_vehicles(file_name, allowed_vehicles)
-# print f'\nYou have added "{new_vehicle}" as an authorized vehicle.'
+# save vehicles to file
+# print "added new vehicle"
 # else
-# print f'\n"{new_vehicle}" is already an authorized vehicle.'
+# print "vehicle already authorized"
 # end if
-# print newline
-    
-# else if choice is '4' then
-# set remove_vehicle to input("Please enter the full vehicle name you would like to remove: ").strip()
+
+# elif choice == '4' then
+# remove_vehicle = input vehicle name to remove
 # if remove_vehicle in allowed_vehicles then
-# set confirm to input(f'Are you sure you want to remove "{remove_vehicle}" from the Authorized Vehicles List? (yes/no): ').strip().lower()
-# if confirm is 'yes' then
-# remove remove_vehicle from allowed_vehicles
-# call save_vehicles(file_name, allowed_vehicles)
-# print f'\nYou have removed "{remove_vehicle}" as an authorized vehicle.'
+# confirm removal
+# if confirmed then
+# remove vehicle from allowed_vehicles
+# save vehicles to file
+# print "removed vehicle"
 # else
-# print f'\n"{remove_vehicle}" was not removed.'
+# print "vehicle not removed"
 # end if
 # else
-# print f'\n"{remove_vehicle}" is not an authorized vehicle.'
+# print "vehicle not authorized"
 # end if
-# print newline
-    
-# else if choice is '5' then
-# print "Thank you for using the AutoCountry Vehicle Finder, good-bye!"
+
+# elif choice == '5' then
+# print "good-bye!"
 # break
 
 # else
-# print "Invalid choice. Please enter 1, 2, 3, 4, or 5.\n"
-# end if
+# print "Invalid choice"
+
 # end while
 
 # end
-
