@@ -2,10 +2,9 @@
 
 # Script name: Assignment 2-2
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 05/23/2024
-# Purpose: Assignment 2-2 Variables in Python Pseudocode
-
+# Date of Latest Revision: 07/20/2024
 # This program calculates your age in the year 2050.
+
 # Input:  Age and current year
 # Output: Your current age followed by your age in 2050
 
