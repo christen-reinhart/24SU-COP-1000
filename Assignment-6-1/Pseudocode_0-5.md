@@ -5,7 +5,7 @@
 # Date of Latest Revision: 07/20/2024
 # Purpose: Arrays
 # Input: Truck Brands
-# Output: Array
+# Output: Print list of vehicles to a file
 
 # CarFinder v0.5 Pseudocode
 
