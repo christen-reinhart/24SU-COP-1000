@@ -1,36 +1,32 @@
-Assignment 2-4 Revised 
+# start
 
-#Pseudocode for calculating paycheck
+# Prompt user for input and initialize variables
+# display "Enter the weekly salary: "
+# input salary
 
-Start 
+# display "Enter the number of dependents: "
+# input numDependents
 
-    #Prompt user for input and initialize variables
-    display "Enter the weekly salary: "
-    input salary
+# Calculate state tax withholding at 6.5%
+# stateTax = salary * 0.065
 
-    display "Enter the number of dependents: "
-    input numDependents
+# Calculate federal tax withholding at 28.0%
+# federalTax = salary * 0.28
 
-    #Calculate state tax withholding at 6.5%
-    stateTax = salary * 0.065
+# Calculate dependent deductions at 2.5% of the salary for each dependent
+# dependentDeduction = salary * 0.025 * numDependents
 
-    #Calculate federal tax withholding at 28.0%
-    federalTax = salary * 0.28
+# Calculate total withholding as stateTax + federalTax + dependentDeduction
+# totalWithholding = stateTax + federalTax + dependentDeduction
 
-    #Calculate dependent deductions at 2.5% of the salary for each dependent
-    dependentDeduction = salary * 0.025 * numDependents
+# Calculate take home pay as salary - totalWithholding
+# takeHomePay = salary - totalWithholding
 
-    #Calculate total withholding as stateTax + federalTax + dependentDeduction
-    totalWithholding = stateTax + federalTax + dependentDeduction
+# Output the results
+# display "State Tax: $" + format stateTax to 2 decimal places
+# display "Federal Tax: $" + format federalTax to 2 decimal places
+# display "Dependent Deductions: $" + format dependentDeduction to 2 decimal places
+# display "Salary: $" + format salary to 2 decimal places
+# display "Take Home Pay: $" + format takeHomePay to 2 decimal places
 
-    #Calculate take home pay as salary - totalWithholding
-    takeHomePay = salary - totalWithholding
-
-    #Output the results
-    display "State Tax: $" + stateTax
-    display "Federal Tax: $" + federalTax
-    display "Dependent Deductions: $" + dependentDeduction
-    display "Salary: $" + salary
-    display "Take Home Pay: $" + takeHomePay
-
-End
+# end
