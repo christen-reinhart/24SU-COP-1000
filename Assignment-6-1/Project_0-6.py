@@ -5,12 +5,15 @@
 # Date of Latest Revision: 07/21/2024
 # Purpose: Vehicle Finder
 
+
+# start
+
 import os
 
-# File name for storing allowed vehicles
+# file name for allowed vehicles
 allowed_vehicles_file = 'allowed_vehicles.txt'
 
-# Function to read the list of allowed vehicles from the file
+# function list of allowed vehicles from the file
 def read_allowed_vehicles():
     if not os.path.exists(allowed_vehicles_file):
         return []
@@ -18,7 +21,7 @@ def read_allowed_vehicles():
         vehicles = [line.strip() for line in file]
     return vehicles
 
-# Function to write the list of allowed vehicles to the file
+# function to write the list 
 def write_allowed_vehicles(vehicles):
     with open(allowed_vehicles_file, 'w') as file:
         for vehicle in vehicles:
@@ -31,7 +34,7 @@ def print_all_vehicles():
         print(vehicle)
     print()
 
-# Function to search for an authorized vehicle
+# function for an authorized vehicle
 def search_vehicle():
     search_vehicle = input("Please enter the full vehicle name: ").strip()
     if search_vehicle in allowed_vehicles:
@@ -40,7 +43,7 @@ def search_vehicle():
         print(f"\n{search_vehicle} is not an authorized vehicle. If you received this in error, please check the spelling and try again.")
     print()
 
-# Function to add a new authorized vehicle
+# function to add vehicle
 def add_vehicle():
     new_vehicle = input("Please enter the full vehicle name you would like to add: ").strip()
     if new_vehicle not in allowed_vehicles:
@@ -51,7 +54,7 @@ def add_vehicle():
         print(f'\n"{new_vehicle}" is already an authorized vehicle.')
     print()
 
-# Function to delete an authorized vehicle
+# function to delete vehicle
 def delete_vehicle():
     remove_vehicle = input("Please enter the full vehicle name you would like to REMOVE: ").strip()
     if remove_vehicle in allowed_vehicles:
@@ -66,10 +69,10 @@ def delete_vehicle():
         print(f'\n"{remove_vehicle}" is not an authorized vehicle.')
     print()
 
-# Load the list of allowed vehicles from the file
+# load the list vehicles from file
 allowed_vehicles = read_allowed_vehicles()
 
-# If the file is empty, initialize it with the default list
+# if file is empty, initialize default list
 if not allowed_vehicles:
     allowed_vehicles = [
         'Ford F-150', 
@@ -81,7 +84,7 @@ if not allowed_vehicles:
     ]
     write_allowed_vehicles(allowed_vehicles)
 
-# Main loop to display the menu and get user choices
+# main loop to display the menu
 while True:
     print("""
 ********************************
@@ -112,4 +115,4 @@ Please enter the following number below from the following menu:
     else:
         print("Invalid choice. Please enter 1, 2, 3, 4, or 5.\n")
 
-# End
+# end
