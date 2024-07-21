@@ -1,20 +1,11 @@
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 
 # Script name: Assignment 2-1
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 05/23/2024
+# Date of Latest Revision: 07/20/2024
 # Purpose: Calculate Phone Billing in Python
 
-# Function to calculate the total bill
-def calculate_total_bill(minutes, minutecost, textmessage, textcost, sales_tax_amount):
-    
- 
-    subtotal = (minutes * minutecost) + (textmessage * textcost)
-    tax_amount = subtotal * sales_tax_amount
-    totalbill = subtotal + tax_amount
-    return totalbill
-
-# Define usage and costs
+# Usage and costs
 minutes = 200  # Number of minutes used
 minutecost = 1  # Cost per minute
 textmessage = 300  # Number of text messages sent
@@ -22,9 +13,11 @@ textcost = 2  # Cost per text message
 SALES_TAX_AMOUNT = 0.06  # Sales tax rate
 
 # Calculate the total bill
-totalbill = calculate_total_bill(minutes, minutecost, textmessage, textcost, SALES_TAX_AMOUNT)
+subtotal = (minutes * minutecost) + (textmessage * textcost)
+tax_amount = subtotal * SALES_TAX_AMOUNT
+totalbill = subtotal + tax_amount
 
 # Output the total bill
-print("Total phone bill")
+print(f"Total phone bill: ${totalbill:.2f}")
 
 
