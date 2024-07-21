@@ -11,19 +11,19 @@
 
 # start
 
-# variable for currnet age
+# variable currnet age
 myCurrentAge = 45
 
-# variable for current year
+# variable current year
 currentYear = 2024
 
 # variable subtracts the currnet year from 2050
 myNewAge = myCurrentAge + (2050 - currentYear)
 
-# print for current age
+# print current age
 print("My Current Age is " + str(myCurrentAge))
 
-# print for age in 2050
+# print age in 2050
 print("I will be " + str(myNewAge) + " in 2050.")
 
 # end
