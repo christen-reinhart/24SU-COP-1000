@@ -7,28 +7,28 @@
 
 # start 
 
-# Check if the testScore is 90 or above 
+# check if the test score is 90 or above 
 # if testScore >= 90 then 
 
-# Check if the classRank is 25 or above 
-# if classRank >= 25 then 
+# check if the class rank is 25 or above 
+# if class rank >= 25 then 
 # print "Accept" 
 # else 
 # print "Reject" 
 # end if 
 
-# Check if the testScore is 80 or above 
-# else if testScore >= 80 then 
-# Check if the classRank is 50 or above 
-# if classRank >= 50 then print "Accept" 
+# check if the test score is 80 or above 
+# else if test score >= 80 then 
+# check if the class rank is 50 or above 
+# if class rank >= 50 then print "Accept" 
 # else 
 # print "Reject" 
 # end if 
 
-# Check if the testScore is 70 or above 
-# else if testScore >= 70 then 
-# Check if the classRank is 75 or above 
-# if classRank >= 75 then 
+# check if the test score is 70 or above 
+# else if test score >= 70 then 
+# check if the class rank is 75 or above 
+# if class rank >= 75 then 
 # print "Accept" 
 # else 
 # print "Reject" 
