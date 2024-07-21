@@ -3,7 +3,7 @@
 # Script name: Assignment 2-2
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 07/20/2024
-# Purpose: Assignment 2-2 Variables in Python 
+# Purpose: Variables in Python 
 
 # This program calculates your age in the year 2050.
 # Input:  Age and current year
