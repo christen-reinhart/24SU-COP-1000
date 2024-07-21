@@ -10,7 +10,7 @@
 
 # start
 
-# Define the file name
+# define file name
 file_name = 'allowed_vehicles.txt'
 
 # initialize vehicles list from the file
