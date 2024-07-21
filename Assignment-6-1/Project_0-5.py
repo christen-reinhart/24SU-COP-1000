@@ -7,21 +7,22 @@
 # Input: Truck Brands
 # Output: Array
 
-# CarFinder v0.5 Pseudocode
-
 # Program Name: AutoCountry Vehicle Finder
 
 # start
-
-import os
 
 # Define the file name
 file_name = 'allowed_vehicles.txt'
 
 # Initialize the allowed vehicles list from the file
 def load_vehicles(file_name):
-    if not os.path.exists(file_name):
-        return [
+    try:
+        with open(file_name, 'r') as file:
+            vehicles = [line.strip() for line in file.readlines()]
+        if not vehicles:
+            raise FileNotFoundError
+    except FileNotFoundError:
+        vehicles = [
             'Ford F-150', 
             'Chevrolet Silverado', 
             'Tesla CyberTruck', 
@@ -30,8 +31,6 @@ def load_vehicles(file_name):
             'Rivian R1T', 
             'Ram 1500'
         ]
-    with open(file_name, 'r') as file:
-        vehicles = [line.strip() for line in file.readlines()]
     return vehicles
 
 # Save the allowed vehicles list to the file
@@ -114,3 +113,4 @@ Please enter the following number below from the following menu:
         print("Invalid choice. Please enter 1, 2, 3, 4, or 5.\n")
         
 # end
+
