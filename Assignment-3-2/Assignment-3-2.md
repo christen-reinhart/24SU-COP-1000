@@ -10,7 +10,7 @@
 # check if the test score is 90 or above 
 # if testScore >= 90 then 
 
-# check if the class rank is 25 or above 
+# check the class rank is 25 or above 
 # if class rank >= 25 then 
 # print "Accept" 
 # else 
