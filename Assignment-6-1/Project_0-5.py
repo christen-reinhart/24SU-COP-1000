@@ -43,7 +43,7 @@ allowed_vehicles = load_vehicles(file_name)
 
 # while true print banner 
 while True:
-    # Display menu
+    # display menu
     print("""
 ********************************
 AutoCountry Vehicle Finder v0.5
