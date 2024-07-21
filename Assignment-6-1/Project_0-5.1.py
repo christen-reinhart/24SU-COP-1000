@@ -2,45 +2,46 @@
 
 # Script name: Project 0-5 
 # Author Name: Christen Reinhart
-# Date of Latest Revision: 07/11/2024
+# Date of Latest Revision: 07/04/2024
 # Purpose: Vehicle Finder
+# Input: Truck Brands
+# Output: Array
 
-# Input: Array with Trucks for car Finder
-# Output: Options
+# CarFinder v0.5 Pseudocode
+
+# Program Name: AutoCountry Vehicle Finder
+
 # start
+
 import os
 
-# File name for storing allowed vehicles
-allowed_vehicles_file = 'allowed_vehicles.txt'
+# Define the file name
+file_name = 'allowed_vehicles.txt'
 
-# Function to read the list of allowed vehicles from the file
-def read_allowed_vehicles():
-    if not os.path.exists(allowed_vehicles_file):
-        return []
-    with open(allowed_vehicles_file, 'r') as file:
-        vehicles = [line.strip() for line in file]
+# Initialize the allowed vehicles list from the file
+def load_vehicles(file_name):
+    if not os.path.exists(file_name):
+        return [
+            'Ford F-150', 
+            'Chevrolet Silverado', 
+            'Tesla CyberTruck', 
+            'Toyota Tundra', 
+            'Nissan Titan', 
+            'Rivian R1T', 
+            'Ram 1500'
+        ]
+    with open(file_name, 'r') as file:
+        vehicles = [line.strip() for line in file.readlines()]
     return vehicles
 
-# Function to write the list of allowed vehicles to the file
-def write_allowed_vehicles(vehicles):
-    with open(allowed_vehicles_file, 'w') as file:
+# Save the allowed vehicles list to the file
+def save_vehicles(file_name, vehicles):
+    with open(file_name, 'w') as file:
         for vehicle in vehicles:
-            file.write(vehicle + '\n')
+            file.write(f"{vehicle}\n")
 
-# Load the list of allowed vehicles from the file
-allowed_vehicles = read_allowed_vehicles()
-
-# If the file is empty, initialize it with the default list
-if not allowed_vehicles:
-    allowed_vehicles = [
-        'Ford F-150', 
-        'Chevrolet Silverado', 
-        'Tesla CyberTruck', 
-        'Toyota Tundra', 
-        'Rivian R1T', 
-        'Ram 1500'
-    ]
-    write_allowed_vehicles(allowed_vehicles)
+# Load the initial list of allowed vehicles
+allowed_vehicles = load_vehicles(file_name)
 
 # While true print banner below
 while True:
@@ -82,7 +83,7 @@ Please enter the following number below from the following menu:
         new_vehicle = input("Please enter the full vehicle name you would like to add: ").strip()
         if new_vehicle not in allowed_vehicles:
             allowed_vehicles.append(new_vehicle)
-            write_allowed_vehicles(allowed_vehicles)
+            save_vehicles(file_name, allowed_vehicles)
             print(f'\nYou have added "{new_vehicle}" as an authorized vehicle.')
         else:
             print(f'\n"{new_vehicle}" is already an authorized vehicle.')
@@ -95,7 +96,7 @@ Please enter the following number below from the following menu:
             confirm = input(f'Are you sure you want to remove "{remove_vehicle}" from the Authorized Vehicles List? (yes/no): ').strip().lower()
             if confirm == 'yes':
                 allowed_vehicles.remove(remove_vehicle)
-                write_allowed_vehicles(allowed_vehicles)
+                save_vehicles(file_name, allowed_vehicles)
                 print(f'\nYou have REMOVED "{remove_vehicle}" as an authorized vehicle.')
             else:
                 print(f'\n"{remove_vehicle}" was not removed.')
