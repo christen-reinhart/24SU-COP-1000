@@ -35,7 +35,7 @@
 # end if 
 # else 
 
-# If none of the above conditions are met, reject the applicant print "Reject" 
+# If no conditions are met, reject the applicant print "Reject" 
 
 # end if End
 # print "Reject" 
