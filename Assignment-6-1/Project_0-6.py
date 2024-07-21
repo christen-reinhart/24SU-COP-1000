@@ -4,7 +4,6 @@
 # Date of Latest Revision: 07/21/2024
 # Purpose: Vehicle Finder
 
-
 # start
 
 import os
