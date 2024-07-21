@@ -1,18 +1,16 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 
 # Script name: Assignment 2-3
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 05/23/2024
-# Purpose:Arithmetic with Python
+# Purpose: Arithmetic with Python
 
-# This Calculates prices and discounts
 # Input:  Prices and numeric values
-# Output: This program calculates profits and sales prices for a furniture company.
+# Output: calculates sales prices
 
-#Begin
+# start
 
-
-#items and prices
+# items and prices
 itemName = "TV Stand"
 retailPrice = 325.00
 wholesalePrice = 200.00
