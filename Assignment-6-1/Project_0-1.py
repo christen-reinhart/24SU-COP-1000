@@ -7,7 +7,7 @@
 # Input: Truck Brands
 # Output: Trucks for Sale
 
-# List of allowed vehicles
+# list of vehicles
 allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
 # start
