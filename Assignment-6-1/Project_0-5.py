@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # Script name: Project 0-5 
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 07/20/2024
