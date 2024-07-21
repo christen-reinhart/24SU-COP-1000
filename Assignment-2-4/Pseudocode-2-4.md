@@ -2,7 +2,7 @@
 # Script name: Assignment 2-4
 # Author Name: Christen Reinhart
 # Date of Latest Revision: 07/20/2024
-# Purpose: Calculates paycheck with Python Pseudocode
+# Purpose: Calculate paycheck with Python Pseudocode
 
 # start
 
