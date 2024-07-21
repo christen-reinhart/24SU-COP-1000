@@ -38,18 +38,18 @@ Please enter the following number below from the following menu:
 5. Exit
 """)
     
-    # Get user choice
+    # user choice
     choice = input("Enter your choice: ").strip()
     
     if choice == '1':
-        # Print all authorized vehicles
+        # authorized vehicles
         print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
         for vehicle in allowed_vehicles:
             print(vehicle)
         print()  
     
     elif choice == '2':
-        # Search for a specific authorized vehicle
+        # Search authorized vehicle
         search_vehicle = input("Please enter the full vehicle name: ").strip()
         if search_vehicle in allowed_vehicles:
             print(f"\n{search_vehicle} is an authorized vehicle.")
@@ -58,7 +58,7 @@ Please enter the following number below from the following menu:
         print()  
 
     elif choice == '3':
-        # Add a new authorized vehicle
+        # Add authorized vehicle
         new_vehicle = input("Please enter the full vehicle name you would like to add: ").strip()
         if new_vehicle not in allowed_vehicles:
             allowed_vehicles.append(new_vehicle)
@@ -68,7 +68,7 @@ Please enter the following number below from the following menu:
         print()  
     
     elif choice == '4':
-        # Delete an authorized vehicle
+        # Delete vehicle
         remove_vehicle = input("Please enter the full vehicle name you would like to REMOVE: ").strip()
         if remove_vehicle in allowed_vehicles:
             confirm = input(f'Are you sure you want to remove "{remove_vehicle}" from the Authorized Vehicles List? (yes/no): ').strip().lower()
@@ -82,12 +82,12 @@ Please enter the following number below from the following menu:
         print()
 
     elif choice == '5':
-        # Exit the program
+        # exit program
         print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
         break
     
     else:
-        # Handle invalid input
+        # handle invalid input
         print("Invalid choice. Please enter 1, 2, 3, 4, or 5.\n")
         
 # end
