@@ -1,3 +1,10 @@
+# !/usr/bin/env python3
+
+# Script name: Assignment 2-4
+# Author Name: Christen Reinhart
+# Date of Latest Revision: 05/23/2024
+# Purpose: Calculates paycheck with Python Pseudocode
+
 # start
 
 # Prompt user for input and initialize variables
