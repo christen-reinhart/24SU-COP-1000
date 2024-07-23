@@ -12,15 +12,8 @@
 # CarFinder v0.4
 
 # list of allowed vehicles
-allowed_vehicles = [
-    'Ford F-150', 
-    'Chevrolet Silverado', 
-    'Tesla CyberTruck', 
-    'Toyota Tundra', 
-    'Nissan Titan', 
-    'Rivian R1T', 
-    'Ram 1500'
-]
+allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
+
 
 # while true print banner 
 while True:
