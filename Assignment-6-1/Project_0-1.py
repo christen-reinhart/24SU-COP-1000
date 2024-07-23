@@ -6,10 +6,12 @@
 # Input: Truck Brands
 # Output: Trucks for Sale
 
+# start
+
 # list of vehicles
 allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan']
 
-# start
+
 
 # while true print banner below
 while True:
