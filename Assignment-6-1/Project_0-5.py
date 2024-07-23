@@ -21,15 +21,7 @@ def load_vehicles(file_name):
         if not vehicles:
             raise FileNotFoundError
     except FileNotFoundError:
-        vehicles = [
-            'Ford F-150', 
-            'Chevrolet Silverado', 
-            'Tesla CyberTruck', 
-            'Toyota Tundra', 
-            'Nissan Titan', 
-            'Rivian R1T', 
-            'Ram 1500'
-        ]
+        vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'Toyota Tundra', 'Nissan Titan', 'Rivian R1T', 'Ram 1500']
     return vehicles
 
 # save vehicles to the file
