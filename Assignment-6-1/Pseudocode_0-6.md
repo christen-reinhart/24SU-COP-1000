@@ -98,7 +98,7 @@
 # while true do:
 # print("""
 # ********************************
-# AutoCountry Vehicle Finder v0.5
+# AutoCountry Vehicle Finder v0.6
 # ********************************
 # Please enter the following number below from the following menu:
 
