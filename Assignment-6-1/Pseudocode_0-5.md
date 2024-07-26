@@ -6,7 +6,7 @@
 # Purpose: Arrays
 # Input: Truck Brands
 # Output: Print list of vehicles to a file
-
+# Note: "Test Passed"
 # CarFinder v0.5 Pseudocode
 
 # Program Name: AutoCountry Vehicle Finder
