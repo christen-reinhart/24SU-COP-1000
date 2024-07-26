@@ -26,7 +26,7 @@ def write_allowed_vehicles(vehicles):
         for vehicle in vehicles:
             file.write(vehicle + '\n')
 
-# Function to print all authorized vehicles
+# Function to print vehicles
 def print_all_vehicles():
     print("\nThe AutoCountry sales manager has authorized the purchase and selling of the following vehicles:")
     for vehicle in allowed_vehicles:
