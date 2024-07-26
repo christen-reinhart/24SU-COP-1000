@@ -5,7 +5,7 @@
 # Purpose: Array
 # Input: Truck Brands
 # Output: Trucks for Sale
-
+# Note: "Test Passed"
 # start
 
 # list of vehicles
@@ -13,7 +13,7 @@ allowed_vehicles = ['Ford F-150', 'Chevrolet Silverado', 'Tesla CyberTruck', 'To
 
 
 
-# while true print banner below
+# while true print banner
 while True:
     print("""
 ********************************
