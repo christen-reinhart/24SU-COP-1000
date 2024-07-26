@@ -33,7 +33,7 @@ def print_all_vehicles():
         print(vehicle)
     print()
 
-# function for an authorized vehicle
+# function for vehicle
 def search_vehicle():
     search_vehicle = input("Please enter the full vehicle name: ").strip()
     if search_vehicle in allowed_vehicles:
