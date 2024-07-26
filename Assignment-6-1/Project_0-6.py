@@ -9,10 +9,10 @@
 
 import os
 
-# file name for allowed vehicles
+# file name for vehicles
 allowed_vehicles_file = 'allowed_vehicles.txt'
 
-# function list of allowed vehicles from the file
+# function list of vehicles from file
 def read_allowed_vehicles():
     if not os.path.exists(allowed_vehicles_file):
         return []
